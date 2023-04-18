@@ -1,0 +1,1 @@
+[Com2]cons.VelCinta2="2400" [Com2]cons.Temp="300" [Com2]Scada.selTemp="1" [Com2]cons.Dens="0" [Com2]Scada.selVisc="0" 

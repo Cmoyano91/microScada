@@ -1,5 +1,0 @@
-<script>
-	funcion genericaParaCapturar()
-	{
-	}
-</script>

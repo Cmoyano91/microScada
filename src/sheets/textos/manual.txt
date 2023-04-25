@@ -1,0 +1,7 @@
+En esta pagina podremos activar o desactivar los diferentes elementos de la maquina en modo manual,
+tambien podemos ver en la parte de la derecha los que estan encendidos.
+
+1- Activar el modo manual presionando el boton on del apartado selector.
+2- Para activar los variadores presionamos el boton de On y una vez este en verde apretamos el boton de la pantalla( el cuarto ).
+3- Para parar los variadores pulsaremos el botón de stop, teniendo seleccionados los que queremos parar.
+4- Para accionar los pistones, pulsaremos el boton de on de el que queramos accionar.

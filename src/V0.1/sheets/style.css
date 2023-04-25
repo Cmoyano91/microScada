@@ -1,0 +1,227 @@
+div
+{
+	//border: 1px solid;
+}
+
+.main
+{
+	width: 1255px;
+	height: 1000px;
+	position: absolute;
+}
+
+.datos
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 300px;
+	font-size: 18px;
+	background: white;
+}
+
+.fondo 
+{
+	position:absolute;
+	right: 49px;
+	top: 20px;
+}
+
+.acciones
+{
+	position:absolute;
+	bottom: 30%;
+	left: 2%;
+	width: auto;
+	height: 230px;
+}
+
+.form
+{
+	float: left;
+	border: 1px solid black;
+	padding: 0 10px;
+	margin: 0 10px 0 0;
+}
+
+.Zona1
+{
+	position: absolute;
+	height:120px;
+	width:50px;
+	top:150px;
+	right:520px;;
+}
+.Zona12
+{
+	position: absolute;
+	height:60px;
+	width:80px;
+	top:130px;
+	right:440px;;
+}
+
+.Zona2
+{
+	position: absolute;
+	height:120px;
+	width:100px;
+	top:190px;
+	right:420px;;
+}
+
+.Zona4
+{
+	position: absolute;
+	height:335px;
+	width:85px;
+	top:50px;
+	right:335px;
+}
+
+.Zona5
+{
+	position: absolute;
+	height:335px;
+	width:85px;
+	top:100px;
+	right:250px;
+}
+
+.Zona6
+{
+	position: absolute;
+	height:335px;
+	width:85px;
+	top:150px;
+	right:164px;
+}
+
+.Zona7
+{
+	position: absolute;
+	height:100px;
+	width:164px;
+	bottom:0px;
+	right:0px;
+}
+
+.estados
+{
+	position:absolute;
+	border: 1px solid;
+	top: 3%;
+	left: 2%;
+	padding: 5px;
+	width: 350px;
+}
+
+.titulo
+{
+	margin-top: -15px;
+	margin-left: 10px;
+	float: left;
+	font-size: 18px;
+	background: white;
+}
+
+.subtitulosz
+{
+	font-weight: bold;
+	background: lightGrey;
+}
+
+.imagen
+{
+	position: absolute;
+	top:6%;
+	right:15%;
+	text-align: left;
+}
+
+.pulsador
+{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+/* --- Modales --- */
+
+.modal-wrapper {
+  background-color: rgb(0,0,0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog {
+	background-color:white;
+	width: 60%;
+	height: 50vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.modal-dialog-grid {
+	display: grid;
+	grid-template-rows: 2em calc(50vh - 2em);
+	grid-template-areas:
+	"area-header"
+	"area-body"
+}
+
+.area-header {
+	grid-area: area-header;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.area-header button {
+	background: #808080;
+	color: white;
+	width: 2em;
+	height: 2em;
+	border-radius: 10px;
+	//border: 1px solid #86b7fe;
+}
+
+.area-header h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 0.15em;
+	position: sticky;
+	top:0;
+	right: 50%;
+	text-align: center;
+}
+
+.area-body {
+	grid-area: area-body;
+	margin: 0;
+	padding: 0;
+}
+
+.on
+{
+	background: lightgreen;
+}
+
+.off
+{
+	background: lightgray;
+}

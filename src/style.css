@@ -73,6 +73,7 @@ span.unit {
 .button
 {
 	text-align:center;
+	float:left;
 }
 
 
@@ -86,6 +87,21 @@ span.unit {
 .ayuda-texto
 {
 	text-align: justify;
-	margin-left: 40px;
-	margin-right: 40px;
+}
+
+p.action
+{
+	text-align: center;
+}
+.ayuda-texto >p >button
+{
+	font-size: large;
+    width: 100px;
+    height: 75px;
+    margin: 50px;
+}
+
+span.date
+{
+	float: right;
 }

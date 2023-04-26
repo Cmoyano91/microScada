@@ -1,3 +1,36 @@
+<script>
+	
+	
+	var manualTestRelay_status = true;
+	
+	function manualTestRelay( data )
+	{
+		// --- Comprobar el Rele de Seguridad ---
+		if ( data['Com2|Local-2-I_Pt07_Data'] == 0 )
+		{
+			// --- Desabilita los Botones ---
+			$( ".estados button" ).attr( "disabled" , true );
+			
+			if ( manualTestRelay_status )
+			{
+				// --- Pintar alerta ---
+				OpenModal( "alerta" );
+			}
+			
+			manualTestRelay_status = false;
+			
+		}
+		else
+		{
+			// --- Habilitar los Botones ---
+			$( ".estados button" ).attr( "disabled" , false );
+		}
+	}
+	
+	subsSet( ["Com2|Local-2-I_Pt07_Data"] , manualTestRelay );
+	OpenModal( 'modManual' );
+</script>
+
 <div class="main">
 	<div class="estados">
 		<h1 class="titulo">Estado</h1>

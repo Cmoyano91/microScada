@@ -1,5 +1,6 @@
 Array
 (
+    [Com2|Local-2-I_Pt07_Data] => 0
     [Com2|Z1_mot1_ready] => 0
     [Com2|Z2_mot1_ready] => 0
     [Com2|Z2_bomba_ready] => 0
@@ -18,4 +19,7 @@ Array
     [Com2|Z4_DiscosDentro] => 0
     [Com2|Z5_DiscosDentro] => 0
     [Com2|Z6_DiscosDentro] => 0
+    [Com2|scada_selector] => 0
+    [Com2|Seg_MotActivos] => 0
+    [Com2|Seg_OK] => 0
 )

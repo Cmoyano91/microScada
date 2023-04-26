@@ -1,5 +1,3 @@
-En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador 
-de la cinta de lacado y la cinta de almacenamiento.
+En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador de la cinta de lacado y la cinta de almacenamiento.
 
-- Podemos visualizar tambien la temperatura y viscosidad, elementos que podemos modifiar en la 
-  pagina inicial.
+- Podemos visualizar también la temperatura y viscosidad, elementos que podemos modificar en la página inicial.

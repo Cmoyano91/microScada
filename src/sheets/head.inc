@@ -4,7 +4,7 @@
 			if ( $_SHEET != 'main' )
 			{?>
 				<div class="button">
-					<button class="pulsador" style="font-size: 30px;" onClick="location.href = '?';" > &#8962; </button>
+					<button title="Inicio" class="pulsador" style="font-size: 30px;" onClick="location.href = '?';" > &#8962; </button>
 				</div>
 			<?}
 		?>

@@ -1,1 +1,1 @@
-[Com2]scada.PZ4Mot1="1" 
+[Com2]scada.selector="1" 

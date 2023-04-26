@@ -1,18 +1,15 @@
-Esta es la pantalla principal en la que podemos ver información general de la maquina por zonas.
+Esta es la pantalla principal en la que podemos ver información general de la máquina por zonas.
 
 - En la imagen podemos ver información básica de los variadores y la temperatura interior.
 
-- En la parte de abajo podemos cambiar la velocidad de la cinta de lacado
-  y tambien la temperatura y la viscosidad del producto. ( Ella sola se encargara de regularlo )
+- En la parte de abajo podemos cambiar la velocidad de la cinta de lacado y también la temperatura y la viscosidad del producto. (Ella sola se encargará de regularlo)
 
-- En la parte de abajo derecha tenemos un contador con los discos que hay en cada zona,
-  y un botón para vaciar las zonas de manera ordenada.
+- En la parte de abajo derecha tenemos un contador con los discos que hay en cada zona, y un botón para vaciar las zonas de manera ordenada.
 
 - Podemos pinchar en las diferentes zonas de la imagen para acceder a la información detallada de dicha zona.
 
 
-La cabecera y el pie de pagina estaran siempre visibles
-- El pie de página muestra información basica de la maquina.
-  Tambien tenemos un boton para acceder al panel de contros de manual.
+La cabecera y el pie de página estarán siempre visibles
+- El pie de página muestra información básica de la máquina. También tenemos un botón para acceder al panel de control de manual.
 	
 - La cabecera muestra información del servidor.

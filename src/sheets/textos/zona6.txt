@@ -1,10 +1,9 @@
-En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador 
-de la tercera zona de almacenamiento.
+En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador de la tercera zona de almacenamiento.
 
-- Los sensores estan visualizados en azul:
+- Los sensores están visualizados en azul:
    Azul oscuro = desactivado.
    Azul claro = activado.
 	
-- Los actuadores estan visualizados en amarillo:
+- Los actuadores están visualizados en amarillo:
    Amarillo oscuro = desactivado.
    Amarillo claro = activado.

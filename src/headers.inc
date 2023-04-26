@@ -1,7 +1,7 @@
 <head>
-	<!--<meta http-equiv="refresh" content="5">-->
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="script.js"></script>
+	
 	
 	<?
 		if ( file_exists( 'sheets/headers.inc' ) )

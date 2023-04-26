@@ -1,7 +1,6 @@
-En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador 
-de la cinta de salida.
+En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador de la cinta de salida.
 
-- Los sensores estan visualizados en azul:
+- Los sensores están visualizados en azul:
    Azul oscuro = desactivado.
    Azul claro = activado.
 	

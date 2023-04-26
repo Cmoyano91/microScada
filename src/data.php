@@ -68,7 +68,7 @@
 			}
 			case "server|fecha":
 			{
-				$valor = strftime("%A %d de %B del %Y");
+				$valor = utf8_encode( strftime("%A %d de %B del %Y") );
 				
 				
 				break;

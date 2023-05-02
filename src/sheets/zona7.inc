@@ -34,8 +34,8 @@
 				</tr>
 			</table>
 		</div>
-		<div class="imagen">
-			<?//=  getSvg( "sheets/Images/Zona7.svg" ); ?>	
-		</div>
+	</div>
+	<div class="fondo">
+		<?//=  getSvg( "sheets/Images/Zona7.svg" ); ?>	
 	</div>
 </div>

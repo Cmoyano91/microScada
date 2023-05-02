@@ -223,7 +223,21 @@ function animTimeout()
 					case "bgcolor":
 					{
 						coll [ x ].className= values [ status ];
+						break;
 					}
+					case "rotate":
+					{
+						coll[ x ].transform = 'rotate(25deg)';
+						break;
+						
+      
+						
+						
+						
+						
+						
+					}
+					
 				}		
 			}
 		}

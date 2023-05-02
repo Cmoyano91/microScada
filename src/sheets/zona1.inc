@@ -43,9 +43,9 @@
 				
 			</table>
 		</div>
-		<div class="imagen">
-			<?//= getSvg( "sheets/Images/Zona1.svg" ); ?>	
-		</div>
+	</div>
+	<div class="fondo">
+		<?//= getSvg( "sheets/Images/Zona1.svg" ); ?>	
 	</div>
 </div>
 

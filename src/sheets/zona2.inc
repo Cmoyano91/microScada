@@ -1,5 +1,4 @@
 <div class="main">
-	
 	<div class="datos">
 		<br>
 		<div class="estados"  style="position:relative;" >	
@@ -19,19 +18,19 @@
 				<tr>
 					<td>Velocidad cinta</td>
 					<td class="value">
-						<span datafield="Com2|V210U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|V311U1-I_OutputFreq">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Motor Bomba Activo</td>
+					<td>Motor Lacadora Activo</td>
 					<td class="value">
 						<span datafield="Com2|Z2_Bomba_activo">0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Velocidad Bomba</td>
+					<td>Velocidad Lacadora</td>
 					<td class="value">
-						<span datafield="Com2|V212U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|V313U1-I_OutputFreq">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -58,8 +57,9 @@
 				</tr>
 			</table>
 		</div>
-		<br>
-		<div class="estados" style="position:relative;">
+	</div>
+	<div class="datos">
+		<div class="estados" >
 			<h1 class="titulo"> Zona3 </h1>
 			<table class= "interface">
 				<tr>	
@@ -70,22 +70,20 @@
 				<tr>
 					<td>Motor Cinta activo</td>
 					<td class="value">
-						<span datafield="Com2|Z1_mot1_activo">0</span>
+						<span datafield="Com2|Z3_mot1_activo">0</span>
 					</td>
 				</tr>
 				<tr>
 					<td>Velocidad cinta</td>
 					<td class="value">
-						<span datafield="Com2|V210U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				
 			</table>
 		</div>
-
 	</div>
-	<div class="imagen">
-		<!-- <object type="image/svg+xml" id="svgimage" data=".\sheets\Images\cinta.svg" ></object> -->
-		<?= getSvg( "sheets/Images/cinta.svg" ); ?>	
-	</div>
+		<div class="fondo">
+			<?= getSvg( "sheets/Images/cinta1.svg" ); ?>	
+		</div>
 </div>

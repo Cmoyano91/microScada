@@ -10,13 +10,13 @@
 					</th>
 				</tr>
 				<tr>
-					<td>Motor Cadena activo</td>
+					<td>Motor Arrastre activo</td>
 					<td class="value">
 						<span datafield="Com2|Z4_mot1_activo">0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Velocidad Cadena</td>
+					<td>Velocidad Arrastre</td>
 					<td class="value">
 						<span datafield="Com2|V211U1-I_OutputFreq">0</span><span class="unit">Hz</span>
 					</td>
@@ -39,13 +39,13 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Arriba:</td>
+					<td>Detector Arriba</td>
 					<td class="value">
 						<span datafield="Com2|Z4_det3">0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Abajo:</td>
+					<td>Detector Abajo</td>
 					<td class="value">
 						<span datafield="Com2|Z4_det4">0</span>
 					</td>
@@ -149,8 +149,8 @@
 				</tr>
 			</table>
 		</div>
-		<div class="imagen">
-			<?= getSvg( "sheets/Images/Zona4.svg" ); ?>		
-		</div>
+	</div>
+	<div class="fondo">
+		<?= getSvg( "sheets/Images/Zona4.svg" ); ?>		
 	</div>
 </div>

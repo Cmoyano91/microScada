@@ -10,15 +10,15 @@
 					</th>
 				</tr>
 				<tr>
-					<td>Motor Cadena activo</td>
+					<td>Motor Arrastre activo</td>
 					<td class="value">
 						<span datafield="Com2|Z6_mot1_activo">0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Velocidad Cadena</td>
+					<td>Velocidad Arrastre</td>
 					<td class="value">
-						<span >0</span><span class="unit">Hz</span>
+						<span datafield="">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -39,13 +39,13 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Arriba:</td>
+					<td>Detector Arriba</td>
 					<td class="value">
 						<span datafield="Com2|Z6_det3"=>0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Abajo:</td>
+					<td>Detector Abajo</td>
 					<td class="value">
 						<span datafield="Com2|Z6_det4"=>0</span>
 					</td>
@@ -103,14 +103,11 @@
 				</tr>
 				
 			</table>
-		</div>
-		<div class="imagen">
-			<!-- <object type="image/svg+xml" id="svgimage" data=".\sheets\Images\Zona6.svg" ></object> -->
-			<?= getSvg( "sheets/Images/Zona6.svg" ); ?>	
-
-			
-		</div>
-		
+		</div>	
+	</div>
+	<div class="fondo">
+		<!-- <object type="image/svg+xml" id="svgimage" data=".\sheets\Images\Zona6.svg" ></object> -->
+		<?= getSvg( "sheets/Images/Zona6.svg" ); ?>	
 	</div>
 	
 </div>

@@ -9,7 +9,7 @@
 	</div>
 	<div>
 		<b>Estado de maquina:</b>
-		<span value="0" datafield="Com2|Seg_MotActivos" dataanimtype="switch" dataanimvalues="Parada;En Marcha"></span>
+		<span value="0" datafield="Com2|Seg_MaquinaOn" dataanimtype="switch" dataanimvalues="Parada;En Marcha"></span>
 		
 	</div>
 	<div>

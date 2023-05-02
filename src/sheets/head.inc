@@ -10,9 +10,9 @@
 		?>
 	</span>
 	
-	<div>
-		<span datafield = "SERVER|fecha" class="date"> Fecha </span>
+	<div class="date">
+		<span datafield = "SERVER|fecha"> Fecha </span>
 		<br>
-		<span  datafield = "SERVER|hora" class="date"> Hora </span>
+		<span  datafield = "SERVER|hora"> Hora </span>
 	</div>
 </div>

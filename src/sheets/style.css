@@ -165,23 +165,3 @@ div
 {
 	background: lightgray;
 }
-
-
-
-
-
-
-/* The animation code */
-@keyframes example {
-  0%   {fill: red;}
-  25%  {fill: yellow;}
-  50%  {fill: blue;}
-  100% {fill: green;}
-}
-
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
-}

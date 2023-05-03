@@ -2,6 +2,8 @@
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="script.js"></script>
 	
+	<script src="https://cdn.jsdelivr.net/npm/gsap"></script>
+	
 	
 	<?
 		if ( file_exists( 'sheets/headers.inc' ) )

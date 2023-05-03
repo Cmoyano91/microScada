@@ -222,23 +222,55 @@ function animTimeout()
 					
 					case "bgcolor":
 					{
-						coll [ x ].className= values [ status ];
+						coll [ x ].className = values [ status ];
 						break;
-					}
-					case "rotate":
-					{
-						coll[ x ].transform = 'rotate(25deg)';
-						break;
-						
-      
-						
-						
-						
-						
-						
 					}
 					
-				}		
+					/**
+					 * 
+					 * values[ 0 ] --> Duración
+					 * values[ 1 ] --> Repeticiones(-1 = infinito)
+					 * 
+					 * */
+					case "rotate":
+					{
+						// --- Tenemos asignado el GSAP al Objeto ? ---
+						if (( $( coll[ x ] ).data( 'gsap' ) == undefined ) )
+						{
+							var objGsap = gsap.to( coll[ x ] ,
+													{
+														duration: values[ 0 ],
+														repeat: values[ 1 ],
+														rotation: "360", 
+														ease: 'none',
+														transformOrigin: "50% 50%",
+														paused: true
+													}
+												);
+							// --- Asignamos la animación al elemento ---
+							$( coll[ x ] ).data( 'gsap' , objGsap );
+						}
+						
+						if( status == "1" )
+						{
+							var objGsap = $( coll[ x ] ).data( 'gsap' );
+							objGsap.play();
+						}
+						else
+						{
+							var objGsap = $( coll[ x ] ).data( 'gsap' );
+							objGsap.pause();
+						}
+
+
+						
+						
+						break;
+					}					
+				}
+				
+				// --- Aqui ya tiene asignada la animacion ---
+				
 			}
 		}
 	}
@@ -298,4 +330,3 @@ function OpenModal( modal ) {
 function CloseModal( modal ) {
 	 $( '#'+modal ).hide();
 }
-

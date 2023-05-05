@@ -2,12 +2,12 @@
 	header('Content-Type: application/json; charset=utf-8');
 	setlocale(LC_TIME, "spanish");
 	
+	
 	$coll = array_unique( array_keys( $_REQUEST ) );
 	
 	$collOPC = array();
 	$collServer = array();
-	
-	//file_put_contents( "datos.txt" , print_r( $coll , true )) ;
+
 	foreach( $coll as $key=>$value )
 	{
 		$value = '[' . strtr( $value , '|-_}' , ']:. ');		
@@ -25,14 +25,10 @@
 	$outValues = '';
 	$opcList = implode( ' ' , $collOPC );
 	
-	//file_put_contents( "datos.txt" , print_r( $opcList , true )) ;
-	
 	$outValues .= shell_exec( "ocp\opc -r {$opcList}" );
 	
 	// --- Procesamos los outValues ---
 	$datos = explode( "\n" , trim( $outValues ) );
-	
-	//file_put_contents( "datos.txt" , print_r( $datos , true )) ;
 	
 	$vars = array();
 	
@@ -48,8 +44,6 @@
 			$vars[ $arg[0] ] = $arg[1];
 		}
 	}
-	
-	//file_put_contents( "datos2.txt" , print_r( $vars , true )) ;
 	
 	// --- Añadimos los datos del SERVER ---
 	foreach( $collServer as $key )
@@ -87,5 +81,3 @@
 	
 	
 	echo json_encode( $vars );
-	
-	//file_put_contents( "datos.txt" , print_r( $vars , true )) ;

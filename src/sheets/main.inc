@@ -1,14 +1,5 @@
 <script>
-	// --- Esta es la funcion que se hace cargo de procesar los datos ---
 /*	
-	function rearme( datos )
-	{
-		if ( datos['Com2|Local-2-I_Pt07_Data'] == '0' && datos['Com2|Buttons_Start'] == '1')
-		{
-			OpenModal( 'alerta' );
-		}
-	}
-	
 	// --- Suscribimos la funcion ---
 	subsSet( [ "Com2|Local-2-I_Pt07_Data", "Com2|Buttons_Start" ] , rearme );
 	

@@ -106,7 +106,6 @@
 		</div>	
 	</div>
 	<div class="fondo">
-		<!-- <object type="image/svg+xml" id="svgimage" data=".\sheets\Images\Zona6.svg" ></object> -->
 		<?= getSvg( "sheets/Images/Zona6.svg" ); ?>	
 	</div>
 	

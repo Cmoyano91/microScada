@@ -1,1 +1,0 @@
-[Com2]scada.PZ2Bomba="0" 

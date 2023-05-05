@@ -7,8 +7,6 @@ function carga()
 	// --- Carga todos los Campos a Actualizar ---
 	var col = $("[datafield]");
 	
-//	col.push( $( "[dataanim]" ) );
-	
 	var vars = "";
 	
 	for(var index = 0; index < col.length; index++)
@@ -25,7 +23,6 @@ function carga()
 			{
 				vars = vars + subsVars[ i ] + "&";
 			}
-			//col.push( subsVars );
 		}
 	}
 	
@@ -35,9 +32,9 @@ function carga()
 	// --- Peticion AJAX ---
 	$.ajax(
 			{
-				url: "data.php",
+				url: "data_redis.php",
 				data: vars,
-//					dataType: "json",
+//				dataType: "json",
 				success: function ( result ) { cargaOk( result ); }
 			}
 		);
@@ -149,7 +146,7 @@ function inicio()
 	carga();
 	
 	// --- Actualización de datos ---
-	setInterval( carga , 3000 );
+	setInterval( carga , 2000 );
 	
 	// --- Actualización de animaciones ---
 	setInterval( animTimeout , 500 );
@@ -319,7 +316,6 @@ function envioVariables( source , val )
 				success: function ( data ) { console.log( data )  }
 			}
 		);
-	//console.log( items );
 }
 
 // --- Control de modales ---

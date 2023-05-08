@@ -29,7 +29,7 @@
 			
 			// --- Guardamos el expire que tenia para ponerlo otra vez cuando la creamos de nuevo ---
 
-			$exp = $redis->ttl ( $arg[0] );
+			$exp = $redis->ttl( $arg[0] );
 			
 			$redis->set( $arg[0] , $arg[1] );
 			$redis->expire( $arg[0], $exp );
@@ -39,6 +39,8 @@
 									$arg[1],
 									$redis->ttl( $arg[0] )
 								];
+			
+			//$redis->set( $arg[0] , $arg[1] , [ 'KEEPTTL' ] )
 		}
 	}
 	

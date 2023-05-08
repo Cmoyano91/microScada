@@ -27,27 +27,21 @@
 					</th>
 				</tr>
 				<tr>
-					<td>Detector Entrada</td>
+					<td>Detector Soporte</td>
 					<td class="value">
 						<span datafield="Com2|Z6_det1"=>0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Soporte</td>
+					<td>Detector Arriba</td>
 					<td class="value">
 						<span datafield="Com2|Z6_det2"=>0</span>
 					</td>
 				</tr>
 				<tr>
-					<td>Detector Arriba</td>
-					<td class="value">
-						<span datafield="Com2|Z6_det3"=>0</span>
-					</td>
-				</tr>
-				<tr>
 					<td>Detector Abajo</td>
 					<td class="value">
-						<span datafield="Com2|Z6_det4"=>0</span>
+						<span datafield="Com2|Z6_det3"=>0</span>
 					</td>
 				</tr>
 				<tr>

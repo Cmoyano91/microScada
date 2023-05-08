@@ -182,6 +182,7 @@
 				</tr>
 				<tr>
 					<td class="value">
+						&nbsp;
 						<span datafield="Com2|Z4_DiscosDentro">0</span>
 					</td>
 				</tr>
@@ -192,6 +193,7 @@
 				</tr>
 				<tr>
 					<td class="value">
+						&nbsp;
 						<span datafield="Com2|Z5_DiscosDentro">0</span>
 					</td>
 				</tr>
@@ -202,14 +204,14 @@
 				</tr>
 				<tr>
 					<td class="value">
+						&nbsp;
 						<span datafield="Com2|Z6_DiscosDentro">0</span>
 					</td>
 				</tr>
 			</table>
-			<form action="" method="POST">
-				<input type="submit" value="Vaciar"> 
-			</form>
-			 
+			<div>
+				<button onClick="setTimeout( function() { envioVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); envioVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
+			</div>
 		</div>
 	</div>
 </div>

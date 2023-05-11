@@ -2,6 +2,14 @@ var subsFunction = null;
 var subsVars = null;
 
 
+/**
+ * carga
+ *
+ * Se encarga de recoger los campos de datafield y hacer una consulta con ellos para sacar los valores de redis
+ *
+ * @param
+ *
+ */
 function carga()
 {
 	// --- Carga todos los Campos a Actualizar ---
@@ -40,6 +48,15 @@ function carga()
 		);
 }
 
+/**
+ * cargaOk
+ *
+ * Se encarga de poner los datos en sus correspondientes sitios que coincidan con el datafield
+ *
+ * @param
+ * 		result		array		Array asociativo en el que estan los nombres de las variables y los valores
+ *
+ */
 function cargaOk( result )
 {
 	// --- Actualizamos los campos ---
@@ -126,32 +143,69 @@ function cargaOk( result )
 	// --- Vamos a la funcion que tenemos definida ---
 	if ( typeof subsFunction == "function" )
 	{
-		subsFunction( result );
+		var valores = {};
+		$.each( result, function( key, val )
+			{
+				for( var i = 0 ; i < subsVars.length ; i++ )
+				{
+					if( subsVars[i] == key )
+					{
+						valores[ key ] =  val;
+					}
+				}
+			}
+		);
+		subsFunction( valores );
 	}
 	
 	// --- Vamos a la funcion generica ---
 	
 }
 
-
+/**
+ * subsSet
+ *
+ * Sirve para pedir datos que no esten en un campo con datafield
+ *
+ * @param
+ * 			elementos		array		Array con nombres de las variables en el PLC
+ * 			funcAcciones	function	Función que llamara cuando tenga esos datos
+ *
+ */
 function subsSet( elementos , funcAcciones )
 {
 	subsFunction = funcAcciones;
 	subsVars = elementos;
 }
 
-
+/**
+ * inicio
+ *
+ * Cargamos los datos al principio cuando acaba de cargar la pagina y añadimos los intervalos para que se mantengan actualizados
+ *
+ * @param
+ *
+ */
 function inicio()
 {
 	carga();
 	
 	// --- Actualización de datos ---
-	setInterval( carga , 2000 );
+	setInterval( carga , 1000 );
 	
 	// --- Actualización de animaciones ---
 	setInterval( animTimeout , 500 );
 }
 
+
+/**
+ * animTimeout
+ *
+ * Agregamos las animaciones pertinentes a cada campo dependiendo del dataanimtype que tenga
+ *
+ * @param
+ *
+ */
 function animTimeout()
 {
 	// --- Recogemos todos los campos con datafield ---
@@ -273,6 +327,16 @@ function animTimeout()
 	}
 }
 
+
+/**
+ * post
+ *
+ * Envio de un formulario
+ *
+ * @param
+ * 		source		string			El id del formulario a enviar Para guardar datos en el PLC
+ *
+ */
 function post( source )
 {
 	// --- Los Estandar ---
@@ -303,6 +367,16 @@ function post( source )
 		);
 }
 
+/**
+ * envioVariables
+ *
+ * Guarda variables en el PLC
+ *
+ * @param
+ * 		source		string			El nombre de la variable en el PLC
+ * 		val			string/int		El valor de la variable que queremos guardar
+ *
+ */
 function envioVariables( source , val )
 {
 	var items = {};
@@ -318,11 +392,115 @@ function envioVariables( source , val )
 		);
 }
 
-// --- Control de modales ---
-function OpenModal( modal ) {
-	 $( '#'+modal ).show();
+
+/**
+ * OpenModal
+ *
+ * Abre una modal creada
+ *
+ * @param
+ * 		idModal			string			Id de la modal que queremos modificar
+ *
+ */
+function OpenModal( idModal ) {
+	 $( '#'+idModal ).show();
 }
 
-function CloseModal( modal ) {
-	 $( '#'+modal ).hide();
+/**
+ * CloseModal
+ *
+ * Cierra una modal abierta
+ *
+ * @param
+ * 		idModal			string			Id de la modal que queremos modificar
+ *
+ */
+function CloseModal( idModal ) {
+	 $( '#'+idModal ).hide();
+}
+
+/**
+ * setTextModal
+ *
+ * Le cambia el texto del cuerpo a una modal creada
+ *
+ * @param
+ * 		bodyModal		string/array	Texto que le pondremos al cuerpo de la modal creada
+ * 		idModal			string			Id de la modal que queremos modificar
+ *
+ */
+function setTextModal( bodyModal , idModal )
+{
+	modal = "#" + idModal + " .area-body";
+	var body = '';
+	if( Array.isArray( bodyModal ) )
+	{
+		for( var i = 0; i < bodyModal.length; i++)
+		{
+			body += "<p>" + bodyModal[i] + "</p>";
+		}
+	}
+	else
+	{
+		if( bodyModal.substr(0, 1) == '[')
+		{
+			regex = /[\['\]]/gm;
+			result = bodyModal.replace(regex, '');
+			bodyModal = result.split(',');
+			for( var i = 0; i < bodyModal.length; i++)
+			{
+				body += "<p>" + bodyModal[i] + "</p>";
+			}
+		}
+		else
+		{
+			body = "<p>" + bodyModal + "</p>";
+		}
+	}
+	$( modal ).html( body );
+}
+
+/**
+ * setTitleModal
+ *
+ * Le cambia el titulo a una modal creada
+ *
+ * @param
+ * 		titleModal		string			Titulo que le pondremos a la modal
+ * 		idModal			string			Id de la modal que queremos modificar
+ *
+ */
+function setTitleModal( titleModal, idModal )
+{
+	modal = "#" + idModal + " h2";
+	$( modal ).html( titleModal );
+}
+
+/**
+ * creaModal
+ *
+ * Crea una Modal oculta con un titulo y un ID
+ *
+ * @param
+ * 		idModal			string			Id que le pondremos a la modal creada
+ * 		titleModal		string			Titulo que le pondremos a la modal creada
+ * 		bodyModal		string/array	Texto para el cuerpo de la modal, si es una array pone cada campo en un <p>
+ *
+ */
+function creaModal( idModal , titleModal , bodyModal = '' )
+{
+	document.write(
+					"<div class='modal-wrapper' id=" + idModal + ">" +
+						"<div class='modal-dialog modal-dialog-grid'>" +
+							"<div class='area-header'>" +
+								"<button onClick=\"CloseModal( '" + idModal + "' );\">X</button>" +
+								"<h2> " + titleModal + " </h2>" +
+								"<span></span>" +
+							"</div>" +
+							"<div class='area-body ayuda-texto'>" +
+							"</div>" +
+						"</div>" +
+					"</div>"
+				);
+	setTextModal( bodyModal, idModal );
 }

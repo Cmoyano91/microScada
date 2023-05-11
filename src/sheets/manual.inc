@@ -3,6 +3,31 @@
 	
 	var manualTestRelay_status = true;
 	
+	creaModal( 
+				"alerta",
+				"Alerta", 
+				[
+					"Se necesita Rearme.", 
+					"Comprueba si esta la seta pulsada.",
+					"Comprueba que la presión de aire está bien."
+				]
+			);
+			
+	creaModal(
+				"modManual",
+				"Modo Manual",
+				"<p>"+
+					"¿Quieres activar el modo manual?"+
+				"</p>"+
+				"<p class=\"action\">"+
+					"<button value=\"0\" onClick=\"envioVariables( 'Com2|scada_selector' , 1 ); CloseModal( 'modManual' );\"> SI </button>"+
+					"<button value=\"0\" onClick=\"envioVariables( 'Com2|scada_selector' , 0 ); CloseModal( 'modManual' );\"> NO </button>"+
+				"</p>"+
+				"<p>"+
+					"Si quieres cambiar el modo otra vez tienes un selector en la parte superior del modo manual."+
+				"</p>"
+			);
+	
 	function manualTestRelay( data )
 	{
 		// --- Comprobar el Rele de Seguridad ---

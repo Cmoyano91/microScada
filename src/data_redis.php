@@ -111,6 +111,19 @@
 	
 	// --- Aqui ya hemos enviado los datos que tenemos en el Servidor REDIS ---
 	// --- Actualizamos los datos de REDIS ---
-	$cmd = 'start /b C:\xampp\php\php readOPC.php';
-	pclose( popen( $cmd , 'r' ) );
 	
+	//--- comprobamos que el scrip opc no este en marcha ---
+	$execstring= 'tasklist /FI "IMAGENAME eq opc.exe"';
+	$output="";
+	exec($execstring, $output);
+	file_put_contents("exec.txt" , print_r($output,  true));
+	
+	if( count( $output ) < 2)
+	{
+		$cmd = 'start /b C:\xampp\php\php readOPC.php';
+		pclose( popen( $cmd , 'r' ) );
+	}
+	
+	
+	
+

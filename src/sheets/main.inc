@@ -4,6 +4,17 @@
 	subsSet( [ "Com2|Local-2-I_Pt07_Data", "Com2|Buttons_Start" ] , rearme );
 	
 */
+
+creaModal(
+			"conf", 
+			"Confirmación",
+			[
+				"¿Seguro que quieres Poner a 0 los contadores?",
+				"<button onClick=\"setTimeout( function() { envioVariables( 'Com2|ResetContadores' , 0 ) }, 2000 ); envioVariables( 'Com2|ResetContadores' , 1 );CloseModal( 'conf' );\">Si</button>"+
+				"<button onClick=\"CloseModal( 'conf' );\">No</button>"
+			],
+			'center'
+		);
 </script>
 <div class="main">
 	<div class="estados">
@@ -154,14 +165,15 @@
 							<label datafield="Com2|cons_Temp"> </label>
 							<br />
 							<input type ="text" name="Com2|cons_Temp"> 
-							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" >
+							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="enviaChecked('Com2|Scada_selTemp')">
+																																				
 							<br />
 						
 							<label>Viscosidad:</label>
 							<label datafield="Com2|cons_Dens" > </label>
 							<br />
 							<input type ="text" name="Com2|cons_Dens">
-							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc" >
+							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="enviaChecked('Com2|Scada_selVisc')">
 							
 							<br />
 							<input type="submit" value="Enviar" onclick="post('form1'); return false;"> 
@@ -211,6 +223,7 @@
 			</table>
 			<div>
 				<button onClick="setTimeout( function() { envioVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); envioVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
+				<button onClick="OpenModal( 'conf' );">Reset Contadores</button>
 			</div>
 		</div>
 	</div>

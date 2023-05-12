@@ -1,3 +1,35 @@
+<script>
+	creaModal(
+				"ayuda",
+				"Ayuda",
+				"<?
+					if(file_exists( "sheets/textos/$_SHEET.txt" ))
+					{
+						$texto = file_get_contents( "sheets/textos/".$_SHEET.".txt" );
+						
+						$texto = htmlentities( $texto );
+						
+						$texto = strtr( $texto , [
+													"\r"	=> '</p><p>',
+													"\n"	=> '</p><p>',
+													'<br>' 	=> '</p><p>',
+													'"'		=> ''
+												]
+									);
+						
+						$texto = strtr( $texto , [
+													'<p></p>'	=> ''
+												]
+									);
+						
+						$texto = '<p>' . $texto . '</p>';
+						
+						echo $texto;
+					}
+				?>"
+			);
+</script>
+
 <div class="footer">
 	<div>
 		<b>Modo:</b>

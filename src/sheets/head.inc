@@ -33,7 +33,7 @@
 		setTextModal( data, "bloqueos" );
 		if( bloqueo )
 		{
-			OpenModal("bloqueos");
+			//OpenModal("bloqueos");
 			bloqueo = false;
 			nIntervId = '';
 		}

@@ -392,6 +392,18 @@ function envioVariables( source , val )
 		);
 }
 
+function enviaChecked( source )
+{
+	var coll = $("[datafield~='" + source + "']" );
+	if( coll.prop( 'checked' ) == true )
+	{
+		envioVariables( source , 1 );
+	}
+	else
+	{
+		envioVariables( source , 0 );
+	}
+}
 
 /**
  * OpenModal
@@ -402,8 +414,9 @@ function envioVariables( source , val )
  * 		idModal			string			Id de la modal que queremos modificar
  *
  */
-function OpenModal( idModal ) {
-	 $( '#'+idModal ).show();
+function OpenModal( idModal )
+{
+	$( '#'+idModal ).show();
 }
 
 /**
@@ -415,8 +428,9 @@ function OpenModal( idModal ) {
  * 		idModal			string			Id de la modal que queremos modificar
  *
  */
-function CloseModal( idModal ) {
-	 $( '#'+idModal ).hide();
+function CloseModal( idModal )
+{
+	$( '#'+idModal ).hide();
 }
 
 /**
@@ -427,9 +441,10 @@ function CloseModal( idModal ) {
  * @param
  * 		bodyModal		string/array	Texto que le pondremos al cuerpo de la modal creada
  * 		idModal			string			Id de la modal que queremos modificar
+ * 		align			string			Alineado del texto
  *
  */
-function setTextModal( bodyModal , idModal )
+function setTextModal( bodyModal , idModal , align = 'left')
 {
 	modal = "#" + idModal + " .area-body";
 	var body = '';
@@ -437,7 +452,7 @@ function setTextModal( bodyModal , idModal )
 	{
 		for( var i = 0; i < bodyModal.length; i++)
 		{
-			body += "<p>" + bodyModal[i] + "</p>";
+			body += "<p style='text-align:" + align + "'>" + bodyModal[i] + "</p>";
 		}
 	}
 	else
@@ -485,9 +500,10 @@ function setTitleModal( titleModal, idModal )
  * 		idModal			string			Id que le pondremos a la modal creada
  * 		titleModal		string			Titulo que le pondremos a la modal creada
  * 		bodyModal		string/array	Texto para el cuerpo de la modal, si es una array pone cada campo en un <p>
+ * 		align			string			Alineado del texto
  *
  */
-function creaModal( idModal , titleModal , bodyModal = '' )
+function creaModal( idModal , titleModal , bodyModal = '' , align = 'left')
 {
 	document.write(
 					"<div class='modal-wrapper' id=" + idModal + ">" +
@@ -502,5 +518,5 @@ function creaModal( idModal , titleModal , bodyModal = '' )
 						"</div>" +
 					"</div>"
 				);
-	setTextModal( bodyModal, idModal );
+	setTextModal( bodyModal, idModal, align );
 }

@@ -3,6 +3,7 @@
 	
 	var manualTestRelay_status = true;
 	
+	// --- Modal de alertas ---
 	creaModal( 
 				"alerta",
 				"Alerta", 
@@ -12,20 +13,18 @@
 					"Comprueba que la presión de aire está bien."
 				]
 			);
-			
+	
+	// --- Modal de Modo Manual ---
 	creaModal(
 				"modManual",
 				"Modo Manual",
-				"<p>"+
-					"¿Quieres activar el modo manual?"+
-				"</p>"+
-				"<p class=\"action\">"+
+				[
+					"¿Quieres activar el modo manual?",
 					"<button value=\"0\" onClick=\"envioVariables( 'Com2|scada_selector' , 1 ); CloseModal( 'modManual' );\"> SI </button>"+
-					"<button value=\"0\" onClick=\"envioVariables( 'Com2|scada_selector' , 0 ); CloseModal( 'modManual' );\"> NO </button>"+
-				"</p>"+
-				"<p>"+
-					"Si quieres cambiar el modo otra vez tienes un selector en la parte superior del modo manual."+
-				"</p>"
+					"<button value=\"0\" onClick=\"envioVariables( 'Com2|scada_selector' , 0 ); CloseModal( 'modManual' );\"> NO </button>",
+					"Si quieres cambiar el modo otra vez tienes un selector en la parte superior del modo manual."
+				],
+				'center'
 			);
 	
 	function manualTestRelay( data )
@@ -206,16 +205,16 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Pistón 1 Horizontal</td>
-				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 1 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 0 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Periferia-15-O_3"> 0 </td>
+				<td>Pistón 1 Vertical</td>
+				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 1 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
+				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 0 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="value" datafield = "Com2|Periferia-15-O_2"> 0 </td>
 			</tr>
 			<tr>
-				<td>Pistón 2 Vertical</td>
-				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 1 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 0 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Periferia-15-O_2"> 0 </td>
+				<td>Pistón 2 Horizontal</td>
+				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 1 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
+				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 0 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="value" datafield = "Com2|Periferia-15-O_3"> 0 </td>
 			</tr>
 			<tr>
 				<td>Pistón 3 Arriba</td>

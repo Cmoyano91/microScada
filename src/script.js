@@ -392,6 +392,15 @@ function envioVariables( source , val )
 		);
 }
 
+/**
+ * enviaChecked
+ *
+ * Cambia el estado de un checkbox al pulsarlo
+ *
+ * @param
+ * 		source		string			El datafield del checkbox
+ *
+ */
 function enviaChecked( source )
 {
 	var coll = $("[datafield~='" + source + "']" );
@@ -464,12 +473,12 @@ function setTextModal( bodyModal , idModal , align = 'left')
 			bodyModal = result.split(',');
 			for( var i = 0; i < bodyModal.length; i++)
 			{
-				body += "<p>" + bodyModal[i] + "</p>";
+				body += "<p style='text-align:" + align + "'>" + bodyModal[i] + "</p>";
 			}
 		}
 		else
 		{
-			body = "<p>" + bodyModal + "</p>";
+			body = "<p style='text-align:" + align + "'>" + bodyModal + "</p>";
 		}
 	}
 	$( modal ).html( body );

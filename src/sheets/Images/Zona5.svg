@@ -27,8 +27,8 @@
      inkscape:window-height="1023"
      id="namedview118"
      showgrid="false"
-     inkscape:zoom="1.2210154"
-     inkscape:cx="176.59883"
+     inkscape:zoom="1"
+     inkscape:cx="-137.07453"
      inkscape:cy="238.65624"
      inkscape:window-x="1920"
      inkscape:window-y="0"
@@ -537,23 +537,21 @@
      r="1.8562502"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa"
-     datafield="Com2|Z5_det3" />
+     datafield="Com2|Z5_det2" />
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="path_Z5.det4"
      cx="44.091759"
      cy="132.81662"
      r="1.8562502"
      dataanimvalues="#003785;#81c9fa"
      dataanimtype="fill"
-     datafield="Com2|Z5_det4" />
+     datafield="Com2|Z5_det3" />
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="path_Z5.det2"
      cx="13.780868"
      cy="118.72914"
      r="1.8562502"
-     datafield="Com2|Z5_det2"
+     datafield="Com2|Z5_det1"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa" />
   <rect

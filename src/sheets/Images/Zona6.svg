@@ -28,8 +28,8 @@
      id="namedview119"
      showgrid="false"
      inkscape:zoom="1.2210154"
-     inkscape:cx="73.7167"
-     inkscape:cy="262.14202"
+     inkscape:cx="187.14688"
+     inkscape:cy="220.37351"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -540,25 +540,23 @@
      cx="44.2033"
      cy="7.1416364"
      r="1.8562502"
+     datafield="Com2|Z6_det2"
+     dataanimtype="fill"
+     dataanimvalues="#003785;#81c9fa" />
+  <circle
+     style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     cx="44.091759"
+     cy="132.81662"
+     r="1.8562502"
      datafield="Com2|Z6_det3"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa" />
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="path_Z6.det4"
-     cx="44.091759"
-     cy="132.81662"
-     r="1.8562502"
-     datafield="Com2|Z6_det4"
-     dataanimtype="fill"
-     dataanimvalues="#003785;#81c9fa" />
-  <circle
-     style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="path_Z6.det2"
      cx="13.780868"
      cy="118.72914"
      r="1.8562502"
-     datafield="Com2|Z6_det2"
+     datafield="Com2|Z6_det1"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa" />
   <rect

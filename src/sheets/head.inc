@@ -1,17 +1,12 @@
 <script>
 	var bloqueo = true;
 	var res = 0;
-	let nIntervId;
 	function bloqueos( result )
 	{
 		res = parseInt( result['Com2|Bloqueo'] , 10 );
 		if( res > 0 )
 		{
-			if (!nIntervId)
-			{
-				boqueo = true;
-				nIntervId = setInterval( function(){ bloqueo = true;}, 10000 );
-			}
+			$('.alert').css("display" ,"block");
 			$.ajax(
 					{
 						url: "codificado.php",
@@ -19,11 +14,10 @@
 						success: function ( data ) { asignar( data ); }
 					}
 				);
-			
 		}
 		else
 		{
-			clearInterval( nIntervId );
+			$('.alert').css("display" , "none") ;
 			CloseModal( "bloqueos" );
 		}
 	}
@@ -33,13 +27,12 @@
 		setTextModal( data, "bloqueos" );
 		if( bloqueo )
 		{
-			//OpenModal("bloqueos");
+			OpenModal("bloqueos");
 			bloqueo = false;
-			nIntervId = '';
 		}
 	}
 	
-	creaModal( "bloqueos" , "BLOQUEOS");
+	creaModal( "bloqueos" , "BLOQUEOS y ERRORES");
 	
 	subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
 </script>
@@ -55,6 +48,9 @@
 			<?}
 		?>
 	</span>
+	<div>
+		<img class="alert" src="sheets/images/alert.png" onClick="OpenModal('bloqueos');"></img>
+	</div>
 	
 	<div class="date">
 		<span datafield = "SERVER|fecha"> Fecha </span>

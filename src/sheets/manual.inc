@@ -1,6 +1,4 @@
 <script>
-	
-	
 	var manualTestRelay_status = true;
 	
 	// --- Modal de alertas ---

@@ -5,13 +5,13 @@
 	
 */
 
-creaModal(
+setModal(
 			"conf", 
 			"Confirmación",
 			[
 				"¿Seguro que quieres Poner a 0 los contadores?",
-				"<button onClick=\"setTimeout( function() { envioVariables( 'Com2|ResetContadores' , 0 ) }, 2000 ); envioVariables( 'Com2|ResetContadores' , 1 );CloseModal( 'conf' );\">Si</button>"+
-				"<button onClick=\"CloseModal( 'conf' );\">No</button>"
+				"<button onClick=\"setTimeout( function() { sendVariables( 'Com2|ResetContadores' , 0 ) }, 2000 ); sendVariables( 'Com2|ResetContadores' , 1 );closeModal( 'conf' );\">Si</button>"+
+				"<button onClick=\"closeModal( 'conf' );\">No</button>"
 			],
 			'center'
 		);
@@ -165,7 +165,7 @@ creaModal(
 							<label datafield="Com2|cons_Temp"> </label>
 							<br />
 							<input type ="text" name="Com2|cons_Temp"> 
-							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="enviaChecked('Com2|Scada_selTemp')">
+							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="sendChecked('Com2|Scada_selTemp')">
 																																				
 							<br />
 						
@@ -173,7 +173,7 @@ creaModal(
 							<label datafield="Com2|cons_Dens" > </label>
 							<br />
 							<input type ="text" name="Com2|cons_Dens">
-							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="enviaChecked('Com2|Scada_selVisc')">
+							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="sendChecked('Com2|Scada_selVisc')">
 							
 							<br />
 							<input type="submit" value="Enviar" onclick="post('form1'); return false;"> 
@@ -222,8 +222,8 @@ creaModal(
 				</tr>
 			</table>
 			<div>
-				<button onClick="setTimeout( function() { envioVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); envioVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
-				<button onClick="OpenModal( 'conf' );">Reset Contadores</button>
+				<button onClick="setTimeout( function() { sendVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); sendVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
+				<button onClick="openModal( 'conf' );">Reset Contadores</button>
 			</div>
 		</div>
 	</div>

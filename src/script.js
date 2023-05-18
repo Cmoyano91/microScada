@@ -26,14 +26,14 @@ var subsVars = null;		/**< Variables que se añaden al actualizar */
 
 
 /**
- * carga
+ * load
  *
  * Se encarga de recoger los campos de datafield y hacer una consulta con ellos para sacar los valores de redis
  *
  * @param
  *
  */
-function carga()
+function load()
 {
 	// --- Carga todos los Campos a Actualizar ---
 	var col = $("[datafield]");
@@ -66,13 +66,13 @@ function carga()
 				url: "data_redis.php",
 				data: vars,
 //				dataType: "json",
-				success: function ( result ) { cargaOk( result ); }
+				success: function ( result ) { loadOk( result ); }
 			}
 		);
 }
 
 /**
- * cargaOk
+ * loadOk
  *
  * Se encarga de poner los datos en sus correspondientes sitios que coincidan con el datafield
  *
@@ -80,7 +80,7 @@ function carga()
  * 		result		array		Array asociativo en el que estan los nombres de las variables y los valores
  *
  */
-function cargaOk( result )
+function loadOk( result )
 {
 	// --- Actualizamos los campos ---
 	$.each( result, function( key, val )
@@ -211,10 +211,10 @@ function subsSet( elementos , funcAcciones )
  */
 function inicio()
 {
-	carga();
+	load();
 	
 	// --- Actualización de datos ---
-	setInterval( carga , 1000 );
+	setInterval( load , 1000 );
 	
 	// --- Actualización de animaciones ---
 	setInterval( animTimeout , 500 );
@@ -391,7 +391,7 @@ function post( source )
 }
 
 /**
- * envioVariables
+ * sendVariables
  *
  * Guarda variables en el PLC
  *
@@ -400,7 +400,7 @@ function post( source )
  * 		val			string/int		El valor de la variable que queremos guardar
  *
  */
-function envioVariables( source , val )
+function sendVariables( source , val )
 {
 	var items = {};
 	items[source] = val;
@@ -416,7 +416,7 @@ function envioVariables( source , val )
 }
 
 /**
- * enviaChecked
+ * sendChecked
  *
  * Cambia el estado de un checkbox al pulsarlo
  *
@@ -424,16 +424,16 @@ function envioVariables( source , val )
  * 		source		string			El datafield del checkbox
  *
  */
-function enviaChecked( source )
+function sendChecked( source )
 {
 	var coll = $("[datafield~='" + source + "']" );
 	if( coll.prop( 'checked' ) == true )
 	{
-		envioVariables( source , 1 );
+		sendVariables( source , 1 );
 	}
 	else
 	{
-		envioVariables( source , 0 );
+		sendVariables( source , 0 );
 	}
 }
 
@@ -446,7 +446,7 @@ function enviaChecked( source )
  * 		idModal			string			Id de la modal que queremos modificar
  *
  */
-function OpenModal( idModal )
+function openModal( idModal )
 {
 	$( '#'+idModal ).show();
 }
@@ -460,7 +460,7 @@ function OpenModal( idModal )
  * 		idModal			string			Id de la modal que queremos modificar
  *
  */
-function CloseModal( idModal )
+function closeModal( idModal )
 {
 	$( '#'+idModal ).hide();
 }
@@ -535,13 +535,13 @@ function setTitleModal( titleModal, idModal )
  * 		align			string			Alineado del texto
  *
  */
-function creaModal( idModal , titleModal , bodyModal = '' , align = 'left')
+function setModal( idModal , titleModal , bodyModal = '' , align = 'left')
 {
 	document.write(
 					"<div class='modal-wrapper' id=" + idModal + ">" +
 						"<div class='modal-dialog modal-dialog-grid'>" +
 							"<div class='area-header'>" +
-								"<button onClick=\"CloseModal( '" + idModal + "' );\">X</button>" +
+								"<button onClick=\"closeModal( '" + idModal + "' );\">X</button>" +
 								"<h2> " + titleModal + " </h2>" +
 								"<span></span>" +
 							"</div>" +

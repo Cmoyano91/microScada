@@ -3,7 +3,7 @@
 <div class="modal-wrapper" id="ayuda">
 	<div class="modal-dialog modal-dialog-grid">
 		<div class="area-header">
-			<button onClick="CloseModal( 'ayuda' );">X</button>
+			<button onClick="closeModal( 'ayuda' );">X</button>
 			<h2> Ayuda </h2>
 			<div></div>
 		</div>

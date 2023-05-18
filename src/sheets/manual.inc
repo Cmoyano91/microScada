@@ -2,7 +2,7 @@
 	var manualTestRelay_status = true;
 	
 	// --- Modal de alertas ---
-	creaModal( 
+	setModal( 
 				"alerta",
 				"Alerta", 
 				[
@@ -13,7 +13,7 @@
 			);
 	
 	// --- Modal de Modo Manual ---
-	creaModal(
+	setModal(
 				"modManual",
 				"Modo Manual",
 				[
@@ -36,7 +36,7 @@
 			if ( manualTestRelay_status )
 			{
 				// --- Pintar alerta ---
-				OpenModal( "alerta" );
+				openModal( "alerta" );
 			}
 			
 			manualTestRelay_status = false;
@@ -50,7 +50,7 @@
 	}
 	
 	subsSet( ["Com2|Local-2-I_Pt07_Data"] , manualTestRelay );
-	OpenModal( 'modManual' );
+	openModal( 'modManual' );
 </script>
 
 <div class="main">
@@ -206,13 +206,13 @@
 				<td>Pistón 1 Vertical</td>
 				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 1 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
 				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist1' , 0 )" datafield="Com2|scada_PZ4Pist1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Periferia-15-O_2"> 0 </td>
+				<td class="value" datafield = "Com2|Periferia-15-O_3"> 0 </td>
 			</tr>
 			<tr>
 				<td>Pistón 2 Horizontal</td>
 				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 1 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
 				<td class="action"><button value="0" onClick="envioVariables( 'Com2|scada_PZ4Pist2' , 0 )" datafield="Com2|scada_PZ4Pist2" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Periferia-15-O_3"> 0 </td>
+				<td class="value" datafield = "Com2|Periferia-15-O_2"> 0 </td>
 			</tr>
 			<tr>
 				<td>Pistón 3 Arriba</td>

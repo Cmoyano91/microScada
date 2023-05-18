@@ -1,6 +1,6 @@
 En esta página podremos activar o desactivar los diferentes elementos de la máquina en modo manual, también podemos ver en la parte de la derecha los que están encendidos.
 
 1- Activar el modo manual presionando el botón On del apartado selector.
-2- Para activar los variadores presionamos el botón de On y una vez este en verde apretamos el botón de la pantalla (el cuarto).
+2- Para activar los variadores presionamos el botón de On y una vez este en verde apretamos el botón fìsico de la pantalla 'Nassgewicht' (el cuarto).
 3- Para parar los variadores pulsaremos el botón de stop, teniendo seleccionados los que queremos parar.
 4- Para accionar los pistones, pulsaremos el botón de On del que queramos accionar.

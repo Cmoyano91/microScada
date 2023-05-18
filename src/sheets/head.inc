@@ -18,7 +18,7 @@
 		else
 		{
 			$('.alert').css("display" , "none") ;
-			CloseModal( "bloqueos" );
+			closeModal( "bloqueos" );
 		}
 	}
 	
@@ -27,12 +27,12 @@
 		setTextModal( data, "bloqueos" );
 		if( bloqueo )
 		{
-			OpenModal("bloqueos");
+			openModal("bloqueos");
 			bloqueo = false;
 		}
 	}
 	
-	creaModal( "bloqueos" , "BLOQUEOS y ERRORES");
+	setModal( "bloqueos" , "BLOQUEOS y ERRORES");
 	
 	subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
 </script>
@@ -49,7 +49,7 @@
 		?>
 	</span>
 	<div>
-		<img class="alert" src="sheets/images/alert.png" onClick="OpenModal('bloqueos');"></img>
+		<img class="alert" src="sheets/images/alert.png" onClick="openModal('bloqueos');"></img>
 	</div>
 	
 	<div class="date">

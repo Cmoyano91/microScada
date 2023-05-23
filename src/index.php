@@ -1,5 +1,6 @@
 <?php
-	require('funciones.inc');
+	require('libraries/funciones.inc');
+	require('config.inc');
 	
 	// --- Miramos si enviamos hoja para mostrar ---
 	$_SHEET = 'main';
@@ -12,7 +13,7 @@
 	// --- Headers ---
 	include( 'headers.inc' );
 	
-	echo '<body onload="inicio();">';
+	echo '<body onload="SCADA.inicio();">';
 	
 	if ( file_exists( 'sheets/head.inc' ) )
 	{

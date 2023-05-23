@@ -29,8 +29,10 @@
 	
 	foreach( $coll as $key=>$value )
 	{
+		// --- $value tiene valor? ---
 		if( $value != '')
 		{
+			// --- convertimos la cadena y añadimos la variable ---
 			$cmd .= '[' . strtr( $key , '|_-' , '].:' ) . '="' . $value . '" ';
 		}
 	}

@@ -1,0 +1,9 @@
+En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador de la segunda zona de almacenamiento.
+
+- Los sensores están visualizados en azul:
+   Azul oscuro = desactivado.
+   Azul claro = activado.
+	
+- Los actuadores están visualizados en amarillo:
+   Amarillo oscuro = desactivado.
+   Amarillo claro = activado.

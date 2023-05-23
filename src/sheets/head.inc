@@ -18,23 +18,23 @@
 		else
 		{
 			$('.alert').css("display" , "none") ;
-			closeModal( "bloqueos" );
+			varBloqueos.closeModal( );
 		}
 	}
 	
 	function asignar( data )
 	{
-		setTextModal( data, "bloqueos" );
+		varBloqueos.setTextModal( data );
 		if( bloqueo )
 		{
-			openModal("bloqueos");
+			varBloqueos.openModal();
 			bloqueo = false;
 		}
 	}
 	
-	setModal( "bloqueos" , "BLOQUEOS y ERRORES");
+	var varBloqueos = new MODAL( "modBloqueos" , "BLOQUEOS y ERRORES");
 	
-	subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
+	SCADA.subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
 </script>
 
 <div class="header">
@@ -49,7 +49,7 @@
 		?>
 	</span>
 	<div>
-		<img class="alert" src="sheets/images/alert.png" onClick="openModal('bloqueos');"></img>
+		<img class="alert" src="sheets/images/alert.png" onClick="varBloqueos.openModal();"></img>
 	</div>
 	
 	<div class="date">

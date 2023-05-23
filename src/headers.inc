@@ -1,6 +1,8 @@
 <head>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="script.js"></script>
+<!--<script src="libraries/scada.js"></script>-->
+<!--<script src="libraries/script.js"></script>-->
+	<script src="libraries/modals.js"></script>
 	
 	<script src="https://cdn.jsdelivr.net/npm/gsap"></script>
 	

@@ -1,20 +1,20 @@
 <script>
 /*	
 	// --- Suscribimos la funcion ---
-	subsSet( [ "Com2|Local-2-I_Pt07_Data", "Com2|Buttons_Start" ] , rearme );
+	SCADA.subsSet( [ "Com2|Local-2-I_Pt07_Data", "Com2|Buttons_Start" ] , rearme );
 	
 */
 
-setModal(
-			"conf", 
-			"Confirmación",
-			[
-				"¿Seguro que quieres Poner a 0 los contadores?",
-				"<button onClick=\"setTimeout( function() { sendVariables( 'Com2|ResetContadores' , 0 ) }, 2000 ); sendVariables( 'Com2|ResetContadores' , 1 );closeModal( 'conf' );\">Si</button>"+
-				"<button onClick=\"closeModal( 'conf' );\">No</button>"
-			],
-			'center'
-		);
+var conf = new MODAL(
+					"conf", 
+					"Confirmación",
+					[
+						"¿Seguro que quieres Poner a 0 los contadores?",
+						"<button onClick=\"setTimeout( function() { SCADA.sendVariables( 'Com2|ResetContadores' , 0 ) }, 2000 ); SCADA.sendVariables( 'Com2|ResetContadores' , 1 );conf.closeModal();\">Si</button>"+
+						"<button onClick=\"conf.closeModal();\">No</button>"
+					],
+					'center'
+				);
 </script>
 <div class="main">
 	<div class="estados">
@@ -165,7 +165,7 @@ setModal(
 							<label datafield="Com2|cons_Temp"> </label>
 							<br />
 							<input type ="text" name="Com2|cons_Temp"> 
-							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="sendChecked('Com2|Scada_selTemp')">
+							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="SCADA.sendChecked('Com2|Scada_selTemp')">
 																																				
 							<br />
 						
@@ -173,10 +173,10 @@ setModal(
 							<label datafield="Com2|cons_Dens" > </label>
 							<br />
 							<input type ="text" name="Com2|cons_Dens">
-							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="sendChecked('Com2|Scada_selVisc')">
+							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="SCADA.sendChecked('Com2|Scada_selVisc')">
 							
 							<br />
-							<input type="submit" value="Enviar" onclick="post('form1'); return false;"> 
+							<input type="submit" value="Enviar" onclick="SCADA.post('form1'); return false;"> 
 						</form>
 					</td>
 				</tr>
@@ -222,8 +222,8 @@ setModal(
 				</tr>
 			</table>
 			<div>
-				<button onClick="setTimeout( function() { sendVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); sendVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
-				<button onClick="openModal( 'conf' );">Reset Contadores</button>
+				<button onClick="setTimeout( function() { SCADA.sendVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); SCADA.sendVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
+				<button onClick="conf.openModal();">Reset Contadores</button>
 			</div>
 		</div>
 	</div>

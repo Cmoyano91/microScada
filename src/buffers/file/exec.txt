@@ -1,0 +1,8 @@
+Array
+(
+    [0] => 
+    [1] => Abbildname                     PID Sitzungsname       Sitz.-Nr. Speichernutzung
+    [2] => ========================= ======== ================ =========== ===============
+    [3] => opc.exe                       9220 Services                   0         4.216 K
+    [4] => opc.exe                       1328 Services                   0        18.220 K
+)

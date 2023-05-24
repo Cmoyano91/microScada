@@ -21,12 +21,13 @@
 	 * 
 	 *
 	 */
-	 
+	
+	// --- incluimos la configuración ---
+	require( "../../config.inc" );
+	
 	header('Content-Type: application/json; charset=utf-8');
 	setlocale(LC_TIME, "spanish");
 	
-	// --- Fichero donde guardamos los datos ---
-	$file = "db.txt";
 	
 	// --- Recogemos los nombres de las variables ---
 	$coll = array_unique( array_keys( $_REQUEST ) );
@@ -58,12 +59,12 @@
 	$fileArray = array();
 	
 	// --- Existe el archivo? ---
-	if( file_exists( $file ) )
+	if( file_exists( DB_FILE ) )
 	{
 		// --- Recogemos los datos del archivo ---
-		$fileData = file_get_contents( $file );
+		$fileData = file_get_contents( DB_FILE );
 		
-		if( filesize($file) > 0 )
+		if( filesize( DB_FILE ) > 0 )
 		{
 			$fileData = explode( PHP_EOL , $fileData );
 			//array_pop( $fileData );
@@ -103,7 +104,7 @@
 	}
 	else
 	{
-		fclose( fopen( $file , 'x' ) );
+		fclose( fopen( DB_FILE , 'x' ) );
 	}
 	//file_put_contents("result.txt" , print_r($fileArray,  true));
 	foreach( $collOPC as $key )
@@ -134,7 +135,7 @@
 		$fileContent.= $key . '=' . $value[1] . ' ' . $value[0] . PHP_EOL;
 	}
 	
-	file_put_contents( $file , $fileContent );
+	file_put_contents( DB_FILE , $fileContent );
 	
 	// --- Procesamos los outValues ---
 	

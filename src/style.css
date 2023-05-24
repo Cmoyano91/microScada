@@ -72,14 +72,15 @@ td.value
 	text-align: right;
 }
 
-span.unit {
+span.unit
+{
     font-size: smaller;
 }
 
 .button
 {
-	text-align:center;
-	float:left;
+	text-align: center;
+	float: left;
 }
 
 
@@ -118,4 +119,9 @@ div.date
 {
 	text-align: right;
 	margin: 0 20px;
+}
+
+.header >div
+{
+	width: 33%;
 }

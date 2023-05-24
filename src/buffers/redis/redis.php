@@ -21,13 +21,16 @@
 	 * 
 	 *
 	 */
-	 
+	
+	// --- incluimos la configuración ---
+	require( "../../config.inc" );
+	
 	header('Content-Type: application/json; charset=utf-8');
 	setlocale(LC_TIME, "spanish");
 	
 	// --- Creacion y conexion a redis ---
 	$redis = new Redis();
-	$redis->connect( '172.23.184.244' , 6379 );
+	$redis->connect( IP_REDIS , PUERTO_REDIS );
 	
 	// --- Recogemos los nombres de las variables ---
 	$coll = array_unique( array_keys( $_REQUEST ) );
@@ -139,11 +142,11 @@
 	$execstring= 'tasklist /FI "IMAGENAME eq opc.exe"';
 	$output="";
 	exec($execstring, $output);
-	//file_put_contents("exec.txt" , print_r($output,  true));
 	
+	// --- Si tiene menos de dos ejecuciones entra ---
 	if( count( $output ) < 2)
 	{
-		$cmd = 'start /b C:\xampp\php\php readOPC.php';
+		$cmd = 'start /b C:\xampp\php\php readOPCRedis.php';
 		pclose( popen( $cmd , 'r' ) );
 	}
 	

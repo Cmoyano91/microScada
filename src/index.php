@@ -1,6 +1,8 @@
 <?php
-	require('libraries/funciones.inc');
-	require('config.inc');
+	require( 'config.inc' );
+	require( 'libraries/funciones.inc' );
+	require( 'libraries/scada.inc' );
+	
 	
 	// --- Miramos si enviamos hoja para mostrar ---
 	$_SHEET = 'main';
@@ -15,6 +17,7 @@
 	
 	echo '<body onload="SCADA.inicio();">';
 	
+	// --- Existe cabecera de pagina? ---
 	if ( file_exists( 'sheets/head.inc' ) )
 	{
 		include( 'sheets/head.inc' );
@@ -22,6 +25,7 @@
 	
 	include( 'sheets/' . $_SHEET . '.inc' );
 	
+	// --- Existe pie de pagina? ---
 	if ( file_exists( 'sheets/foot.inc' ) )
 	{
 		include( 'sheets/foot.inc' );

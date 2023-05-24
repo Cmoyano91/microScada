@@ -38,7 +38,7 @@
 </script>
 
 <div class="header">
-	<span>
+	<div>
 		<?
 			if ( $_SHEET != 'main' )
 			{?>
@@ -47,7 +47,7 @@
 				</div>
 			<?}
 		?>
-	</span>
+	</div>
 	<div>
 		<img class="alert" src="sheets/images/alert.png" onClick="varBloqueos.openModal();"></img>
 	</div>

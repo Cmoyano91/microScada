@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	 * @brief 	Archivo encargado de recoger los datos del servidor OPC y ponerlos en el servidor redis
+	 * @brief 	Archivo encargado de recoger los datos del servidor OPC y ponerlos en un archivo
 	 * @author  Cristian Moyano Ureña <cmoyano18@gmail.com>
 	 * @author  Sara Valero Valero
 	 * @version 1.0
@@ -22,24 +22,24 @@
 	 *
 	 */
 	 
-	// --- Fichero donde guardamos los datos ---
-	$file = "db.txt";
+	// --- incluimos la configuración ---
+	require( "../../config.inc" );	
 	
 	$fileData = '';
 	$fileArray = array();
 
 	// --- Existe el fichero? ---
-	if( file_exists( $file ) )
+	if( file_exists( DB_FILE ) )
 	{
-		$fileData = file_get_contents( $file );
+		$fileData = file_get_contents( DB_FILE );
 	}
 	else
 	{
-		fclose( fopen( $file , 'x' ) );
+		fclose( fopen( DB_FILE , 'x' ) );
 	}
 	
 	
-	if( filesize($file) > 0 )
+	if( filesize(DB_FILE) > 0 )
 	{
 		$fileData = explode( PHP_EOL , $fileData );
 		//array_pop( $fileData );
@@ -86,20 +86,20 @@
 	{
 		if ( substr( $linea , 0 , 1 ) == '[' )
 		{
-			$arg = explode( " " , preg_replace( '/  +/', ' ' ,$linea ));
+			$arg = explode( " " , preg_replace( '/  +/', ' ' ,$linea ) );
 			
 			// --- Guardamos en la variable un dato por fila ---
 			
 			$fileArray[ $arg[0] ][0] = $arg[1];
 		}
 	}
-	//file_put_contents( "test.txt" , print_r( $fileArray, true ) );
+
 	$fileContent = '';
 	
 	foreach( $fileArray as $key=>$value )
 	{
 		$fileContent.= $key . '=' . $value[1] . ' ' . $value[0] . PHP_EOL;
 	}
-	//file_put_contents( "test3.txt" , print_r( $fileContent, true ) );
+
 	// --- Volcamos la variable en el archivo ---
-	file_put_contents( $file , $fileContent , LOCK_EX);
+	file_put_contents( DB_FILE , $fileContent , LOCK_EX);

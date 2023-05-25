@@ -25,8 +25,8 @@
 	// --- incluimos la configuración ---
 	require( "../../config.inc" );
 	
-	header('Content-Type: application/json; charset=utf-8');
-	setlocale(LC_TIME, "spanish");
+	header( 'Content-Type: application/json; charset=utf-8' );
+	setlocale( LC_TIME, "spanish" );
 	
 	// --- Creacion y conexion a redis ---
 	$redis = new Redis();

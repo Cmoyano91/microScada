@@ -34,7 +34,7 @@ class MODAL
 	 * 		align			string			Alineado del texto
 	 *
 	 */
-	constructor( id , title , text = '' , align = 'left')
+	constructor( id , title , text = '' , align = 'left' )
 	{
 		this.id 	= id;
 		this.title 	= title;
@@ -54,7 +54,7 @@ class MODAL
 	 */
 	openModal( )
 	{
-		var contDiv = document.createElement("div");
+		var contDiv = document.createElement( "div" );
 		contDiv.id = this.id + "_cont";
 		
 		contDiv.innerHTML = "<div class='modal-wrapper' id=" + this.id + ">" +
@@ -73,7 +73,7 @@ class MODAL
 		this.setTextModal( this.text , this.align );
 		
 		this.closeBtn = $( '#'+this.id )[0].children[0].children[0].children[0];
-		this.closeBtn.addEventListener('click', this.closeModal.bind(this));
+		this.closeBtn.addEventListener( 'click', this.closeModal.bind( this ) );
 		$( '#'+this.id ).show();
 	}
 
@@ -102,7 +102,7 @@ class MODAL
 	 * 		align			string			Alineado del texto
 	 *
 	 */
-	setTextModal( text , align = 'left')
+	setTextModal( text , align = 'left' )
 	{
 		var modal = "#" + this.id + " .area-body";
 		var body = '';
@@ -115,12 +115,12 @@ class MODAL
 		}
 		else
 		{
-			if( text.substr(0, 1) == '[')
+			if( text.substr( 0, 1 ) == '[')
 			{
 				regex = /[\['\]]/gm;
-				result = text.replace(regex, '');
+				result = text.replace( regex, '' );
 				text = result.split(',');
-				for( var i = 0; i < text.length; i++)
+				for( var i = 0; i < text.length; i++ )
 				{
 					body += "<p style='text-align:" + align + "'>" + text[i] + "</p>";
 				}

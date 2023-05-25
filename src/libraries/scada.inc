@@ -38,11 +38,11 @@
 					load()
 					{
 						// --- Carga todos los Campos a Actualizar ---
-						var col = $("[datafield]");
+						var col = $( "[datafield]" );
 						
 						var vars = "";
 						
-						for(var index = 0; index < col.length; index++)
+						for( var index = 0; index < col.length; index++ )
 						{
 							vars = vars + col[ index ].getAttribute( "datafield" ) + "&";
 						}
@@ -52,15 +52,15 @@
 						{
 							if( Array.isArray( SCADA.subsVars ))
 							{
-								for(var i = 0; i < SCADA.subsVars.length; i++)
+								for( var i = 0; i < SCADA.subsVars.length; i++ )
 								{
 									vars = vars + SCADA.subsVars[ i ] + "&";
 								}
 							}
 						}
 						
-						vars = vars.replace( /&+/gm , '&');
-						vars = vars.replace( /&+$/gm , '');
+						vars = vars.replace( /&+/gm , '&' );
+						vars = vars.replace( /&+$/gm , '' );
 						
 						// --- Peticion AJAX ---
 						$.ajax(
@@ -88,7 +88,7 @@
 						$.each( result, function( key, val )
 								{
 									// --- Buscamos todos los Objetos del DOM que tienen ese DATAFIELD ---
-									var coll = $("[datafield~='" + key + "']" );
+									var coll = $( "[datafield~='" + key + "']" );
 									
 									// --- Añadimos los de Animacion ---
 									coll.push( $( "[dataanim~='" + key + "']" ) );
@@ -232,7 +232,7 @@
 					animTimeout()
 					{
 						// --- Recogemos todos los campos con datafield ---
-						var coll = $("[datafield]");
+						var coll = $( "[datafield]" );
 						
 						for( x = 0 ; x < coll.length ; x++ )
 						{
@@ -425,7 +425,7 @@
 					 */
 					sendChecked( source )
 					{
-						var coll = $("[datafield~='" + source + "']" );
+						var coll = $( "[datafield~='" + source + "']" );
 						if( coll.prop( 'checked' ) == true )
 						{
 							this.sendVariables( source , 1 );

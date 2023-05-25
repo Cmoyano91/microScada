@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	 * @brief 	Archivo que recoge los datos de redis y los devuelve a javascript
+	 * @brief 	Archivo que recoge los datos del archivo y los devuelve a javascript
 	 * @author  Cristian Moyano Ureña <cmoyano18@gmail.com>
 	 * @author  Sara Valero Valero
 	 * @version 1.0
@@ -25,8 +25,8 @@
 	// --- incluimos la configuración ---
 	require( "../../config.inc" );
 	
-	header('Content-Type: application/json; charset=utf-8');
-	setlocale(LC_TIME, "spanish");
+	header( 'Content-Type: application/json; charset=utf-8' );
+	setlocale( LC_TIME, "spanish" );
 	
 	
 	// --- Recogemos los nombres de las variables ---
@@ -67,7 +67,6 @@
 		if( filesize( DB_FILE ) > 0 )
 		{
 			$fileData = explode( PHP_EOL , $fileData );
-			//array_pop( $fileData );
 			
 			foreach( $fileData as $value )
 			{
@@ -80,18 +79,6 @@
 					if ( count( $valueFields ) == 3 )
 					{
 						list( $key , $timestamp , $val ) = $valueFields;
-						
-						/*					 
-							list( $key, $val ) = @explode( '=' , $value );
-							
-							list( $timestamp , $val ) = @explode( ' ' , trim( $val ) );
-							
-							// --- Testea si tiene todos los parametros que necesitamos ---
-							//echo $key. ' ' . $val . ' ' . $timestamp . PHP_EOL;
-						
-							if ( !empty( $key ) and (!empty($val) or $val !== 0) and !empty( $timestamp ) )
-							{
-						*/
 						
 						if ( $timestamp > time() )
 						{
@@ -106,22 +93,19 @@
 	{
 		fclose( fopen( DB_FILE , 'x' ) );
 	}
-	//file_put_contents("result.txt" , print_r($fileArray,  true));
+	
 	foreach( $collOPC as $key )
 	{
-		//echo $fileArray[$key];
 		if( array_key_exists( $key , $fileArray ) )
 		{
 			// --- Datos a enviar ---
 			$result[ $key ] = $fileArray[ $key ][0];
-			
 			
 			// --- Actualizamos el Array de Salida ---
 			$fileArray[ $key ][1] = time() + ( 60 );
 		}
 		else
 		{	
-			//$result[ $key ] = '0';
 			$fileArray[ $key ] = [ "0" , ( time() + ( 60 ) ) ];
 		}
 	}
@@ -135,7 +119,7 @@
 		$fileContent.= $key . '=' . $value[1] . ' ' . $value[0] . PHP_EOL;
 	}
 	
-	file_put_contents( DB_FILE , $fileContent );
+	file_put_contents( DB_FILE , $fileContent , LOCK_EX );
 	
 	// --- Procesamos los outValues ---
 	
@@ -171,14 +155,14 @@
 			}
 			case "server|fecha":
 			{
-				$valor = utf8_encode( strftime("%A %d de %B del %Y") );
+				$valor = utf8_encode( strftime( "%A %d de %B del %Y" ) );
 				
 				
 				break;
 			}
 			case "server|hora":
 			{
-				$valor = date("h:i:s");
+				$valor = date( "h:i:s" );
 				
 				break;
 			}
@@ -191,16 +175,16 @@
 	echo json_encode( $vars );
 	
 	// --- Aqui ya hemos enviado los datos que tenemos en el Servidor REDIS ---
-	// --- Actualizamos los datos de REDIS ---
+	// --- Actualizamos los datos del fichero ---
 
 	//--- comprobamos que el scrip opc no este en marcha ---
 	$execstring= 'tasklist /FI "IMAGENAME eq opc.exe"';
 	$output="";
-	exec($execstring, $output);
-	//file_put_contents("exec.txt" , print_r($output,  true));
+	exec( $execstring, $output );
 	
+	// --- Se esta ejecutando ya el refresco? ---
 	if(( count( $output )) < 2 )
-	{	//echo "hola";
+	{	
 		$cmd = 'start /b C:\xampp\php\php readOPCFile.php';
 		pclose( popen( $cmd , 'r' ) );
 	}

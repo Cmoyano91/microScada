@@ -31,18 +31,20 @@
 	// --- Existe el fichero? ---
 	if( file_exists( DB_FILE ) )
 	{
+		// --- Leemos todo su contenido ---
 		$fileData = file_get_contents( DB_FILE );
 	}
 	else
-	{
+	{	// --- Lo creamos y lo cerramos ---
 		fclose( fopen( DB_FILE , 'x' ) );
 	}
 	
 	
+	// --- Tine contenido el fichero? ---
 	if( filesize(DB_FILE) > 0 )
 	{
+		// --- Separamos la cadena por lineas ---
 		$fileData = explode( PHP_EOL , $fileData );
-		//array_pop( $fileData );
 		
 		foreach( $fileData as $value )
 		{
@@ -81,7 +83,6 @@
 	
 	$vars = array();
 	
-	//file_put_contents( "test2.txt" , print_r( $datos, true ) );
 	foreach( $datos as $linea )
 	{
 		if ( substr( $linea , 0 , 1 ) == '[' )
@@ -102,4 +103,4 @@
 	}
 
 	// --- Volcamos la variable en el archivo ---
-	file_put_contents( DB_FILE , $fileContent , LOCK_EX);
+	file_put_contents( DB_FILE , $fileContent , LOCK_EX );

@@ -46,9 +46,11 @@
 	
 	foreach( $datos as $linea )
 	{
+		// --- Empieza por '['? ---
 		if ( substr( $linea , 0 , 1 ) == '[' )
 		{
-			$arg = explode( " " , preg_replace( '/  +/', ' ' ,$linea ));
+			// --- Quitamos los multiples espacios y creamos array ---
+			$arg = explode( " " , preg_replace( '/  +/', ' ' ,$linea ) );
 			
 			// --- Guardamos el expire que tenia para ponerlo otra vez cuando la creamos de nuevo ---
 			$exp = $redis->ttl( $arg[0] );

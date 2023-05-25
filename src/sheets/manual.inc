@@ -2,29 +2,29 @@
 	var manualTestRelay_status = true;
 	
 	// --- Modal de alertas ---
-var alerta = new MODAL( 
-					"alerta",
-					"Alerta", 
-					[
-						"Se necesita Rearme.", 
-						"Comprueba si esta la seta pulsada.",
-						"Comprueba que la presión de aire está bien."
-					]
-				);
-	
-	// --- Modal de Modo Manual ---
-var modManual = new MODAL(
-					"modManual",
-					"Modo Manual",
-					[
-						"¿Quieres activar el modo manual?",
-						"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|scada_selector' , 1 ); modManual.closeModal( 'modManual' );\"> SI </button>"+
-						"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|scada_selector' , 0 ); modManual.closeModal( 'modManual' );\"> NO </button>",
-						"Si quieres cambiar el modo otra vez tienes un selector en la parte superior del modo manual."
-					],
-					'center'
-				);
-	
+	var alerta = new MODAL( 
+							"alerta",
+							"Alerta", 
+							[
+								"Se necesita Rearme.", 
+								"Comprueba si esta la seta pulsada.",
+								"Comprueba que la presión de aire está bien."
+							]
+						);
+		
+		// --- Modal de Modo Manual ---
+	var modManual = new MODAL(
+							"modManual",
+							"Modo Manual",
+							[
+								"¿Quieres activar el modo manual?",
+								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|scada_selector' , 1 ); modManual.closeModal( 'modManual' );\"> SI </button>"+
+								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|scada_selector' , 0 ); modManual.closeModal( 'modManual' );\"> NO </button>",
+								"Si quieres cambiar el modo otra vez tienes un selector en la parte superior del modo manual."
+							],
+							'center'
+						);
+		
 	function manualTestRelay( data )
 	{
 		// --- Comprobar el Rele de Seguridad ---
@@ -36,7 +36,7 @@ var modManual = new MODAL(
 			if ( manualTestRelay_status )
 			{
 				// --- Pintar alerta ---
-				alerta.openModal(  );
+				alerta.openModal();
 			}
 			
 			manualTestRelay_status = false;
@@ -49,8 +49,8 @@ var modManual = new MODAL(
 		}
 	}
 	
-	SCADA.subsSet( ["Com2|Local-2-I_Pt07_Data"] , manualTestRelay );
-	modManual.openModal( );
+	SCADA.subsSet( [ "Com2|Local-2-I_Pt07_Data" ] , manualTestRelay );
+	modManual.openModal();
 </script>
 
 <div class="main">

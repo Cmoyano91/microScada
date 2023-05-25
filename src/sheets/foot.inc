@@ -3,9 +3,9 @@
 						"ayuda",
 						"Ayuda",
 						"<?
-							if(file_exists( "sheets/textos/$_SHEET.txt" ))
+							if( file_exists( "sheets/textos/$_SHEET.txt" ) )
 							{
-								$texto = file_get_contents( "sheets/textos/".$_SHEET.".txt" );
+								$texto = file_get_contents( "sheets/textos/" . $_SHEET . ".txt" );
 								
 								$texto = htmlentities( $texto );
 								

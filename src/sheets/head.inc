@@ -3,10 +3,10 @@
 	var res = 0;
 	function bloqueos( result )
 	{
-		res = parseInt( result['Com2|Bloqueo'] , 10 );
+		res = parseInt( result[ 'Com2|Bloqueo' ] , 10 );
 		if( res > 0 )
 		{
-			$('.alert').css("display" ,"block");
+			$( '.alert' ).css( "display" , "block" );
 			$.ajax(
 					{
 						url: "codificado.php",
@@ -17,7 +17,7 @@
 		}
 		else
 		{
-			$('.alert').css("display" , "none") ;
+			$( '.alert' ).css( "display" , "none" );
 			varBloqueos.closeModal( );
 		}
 	}
@@ -32,7 +32,7 @@
 		}
 	}
 	
-	var varBloqueos = new MODAL( "modBloqueos" , "BLOQUEOS y ERRORES");
+	var varBloqueos = new MODAL( "modBloqueos" , "BLOQUEOS y ERRORES" );
 	
 	SCADA.subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
 </script>

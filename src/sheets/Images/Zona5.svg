@@ -494,7 +494,9 @@
      r="1.8562502"
      dataanimvalues="#efb810;#ffff00"
      dataanimtype="fill"
-     datafield="Com2|Z4_acc4_ev" />
+     datafield="Com2|Z4_acc4_ev">
+     <Title> Pistón Abajo Z4 </Title>
+     </circle>
   <rect
      style="fill:#ffffff;fill-opacity:1;stroke:#001000;stroke-width:0.21619697;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect1958-2"
@@ -519,7 +521,9 @@
      r="1.8562502"
      datafield="Com2|Z5_acc2_ev"
      dataanimvalues="#efb810;#ffff00"
-     dataanimtype="fill" />
+     dataanimtype="fill" >
+     <Title> Pistón Abajo </Title>
+     </circle>
   <circle
      style="fill:#ffff00;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z5.acc1.ev"
@@ -528,7 +532,9 @@
      r="1.8562502"
      datafield="Com2|Z5_acc1_ev"
      dataanimvalues="#efb810;#ffff00"
-     dataanimtype="fill" />
+     dataanimtype="fill">
+     <Title> Pistón Arriba </Title>
+     </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path1906-4-9-0"
@@ -537,7 +543,9 @@
      r="1.8562502"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa"
-     datafield="Com2|Z5_det2" />
+     datafield="Com2|Z5_det2">
+     <Title> Detector Superior </Title>
+     </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      cx="44.091759"
@@ -545,7 +553,9 @@
      r="1.8562502"
      dataanimvalues="#003785;#81c9fa"
      dataanimtype="fill"
-     datafield="Com2|Z5_det3" />
+     datafield="Com2|Z5_det3">
+     <Title> Detector inferior </Title>
+     </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      cx="13.780868"
@@ -553,7 +563,9 @@
      r="1.8562502"
      datafield="Com2|Z5_det1"
      dataanimtype="fill"
-     dataanimvalues="#003785;#81c9fa" />
+     dataanimvalues="#003785;#81c9fa">
+     <Title> Detector cadena </Title>
+     </circle>
   <rect
      style="fill:none;fill-opacity:1;stroke:#001000;stroke-width:0.18244959;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect2113"

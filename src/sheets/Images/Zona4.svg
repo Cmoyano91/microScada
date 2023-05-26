@@ -28,8 +28,8 @@
      id="namedview122"
      showgrid="false"
      inkscape:zoom="1.2210154"
-     inkscape:cx="25.584237"
-     inkscape:cy="257.08322"
+     inkscape:cx="0.60502605"
+     inkscape:cy="260.35918"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -512,7 +512,9 @@
      r="1.8562502"
      datafield="Com2|Z4_acc1_ev"
      dataanimtype="fill"
-     dataanimvalues="#efb810;#ffff00" />
+     dataanimvalues="#efb810;#ffff00">
+    <Title>Entrada Horizontal</Title>
+  </circle>
   <rect
      style="fill:#ffffff;fill-opacity:1;stroke:#001000;stroke-width:0.21619697;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect1958-2"
@@ -537,7 +539,9 @@
      r="1.8562502"
      datafield="Com2|Z4_acc4_ev"
      dataanimtype="fill"
-     dataanimvalues="#efb810;#ffff00" />
+     dataanimvalues="#efb810;#ffff00">
+    <Title>Pistón Abajo</Title>
+  </circle>
   <circle
      style="fill:#ffff00;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z4.acc3.ev"
@@ -546,7 +550,9 @@
      r="1.8562502"
      dataanimvalues="#efb810;#ffff00"
      dataanimtype="fill"
-     datafield="Com2|Z4_acc3_ev" />
+     datafield="Com2|Z4_acc3_ev">
+    <Title>Pistón Arriba</Title>
+  </circle>
   <circle
      style="fill:#ffff00;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z4.acc2.ev"
@@ -555,7 +561,9 @@
      r="1.8562502"
      datafield="Com2|Z4_acc2_ev"
      dataanimtype="fill"
-     dataanimvalues="#efb810;#ffff00" />
+     dataanimvalues="#efb810;#ffff00">
+    <Title>Entrada Vertical</Title>
+  </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z4.det1"
@@ -564,7 +572,9 @@
      r="1.8562502"
      datafield="Com2|Z4_det1"
      dataanimtype="fill"
-     dataanimvalues="#003785;#81c9fa" />
+     dataanimvalues="#003785;#81c9fa">
+    <Title> Sensor Entrada </Title>
+  </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z4.det3"
@@ -573,7 +583,9 @@
      r="1.8562502"
      dataanimvalues="#003785;#81c9fa"
      dataanimtype="fill"
-     datafield="Com2|Z4_det3" />
+     datafield="Com2|Z4_det3">
+    <Title>Detector Superior</Title>
+  </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path_Z4.det2"
@@ -582,7 +594,9 @@
      r="1.8562502"
      dataanimtype="fill"
      dataanimvalues="#003785;#81c9fa"
-     datafield="Com2|Z4_det2" />
+     datafield="Com2|Z4_det2">
+    <Title>Detector Cadena</Title>
+  </circle>
   <circle
      style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path1906-4-9-8-3"
@@ -591,7 +605,9 @@
      r="1.8562502"
      dataanimvalues="#003785;#81c9fa"
      dataanimtype="fill"
-     datafield="Com2|Z4_det4" />
+     datafield="Com2|Z4_det4">
+    <Title>Detector Inferior</Title>
+  </circle>
   <rect
      style="fill:none;fill-opacity:1;stroke:#001000;stroke-width:0.18244959;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect2113"

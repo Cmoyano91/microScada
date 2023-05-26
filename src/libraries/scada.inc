@@ -200,7 +200,10 @@
 					{
 						this.subsFunction = funcAcciones;
 						this.subsVars = elementos;
+						
 					},
+					
+					
 				
 					/**
 					 * inicio

@@ -51,7 +51,7 @@
 				</tr>
 				<tr>
 					<td class="subtitulosz" colspan="2">
-						Piston Arriba
+						Pistón Arriba
 					</td>
 				</tr>
 				<tr>
@@ -74,7 +74,7 @@
 				</tr>
 				<tr>
 					<td class="subtitulosz" colspan="2">
-						Piston Abajo
+						Pistón Abajo
 					</td>
 				</tr>
 				<tr>

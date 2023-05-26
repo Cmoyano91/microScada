@@ -40,7 +40,7 @@
 			}
 			
 			manualTestRelay_status = false;
-			
+			SCADA.subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
 		}
 		else
 		{
@@ -49,7 +49,7 @@
 		}
 	}
 	
-	SCADA.subsSet( [ "Com2|Local-2-I_Pt07_Data" ] , manualTestRelay );
+	SCADA.subsSet( [ "Com2|Local-2-I_Pt07_Data" ] , manualTestRelay);
 	modManual.openModal();
 </script>
 

@@ -35,6 +35,7 @@
 	var varBloqueos = new MODAL( "modBloqueos" , "BLOQUEOS y ERRORES" );
 	
 	SCADA.subsSet( [ "Com2|Bloqueo" ] , bloqueos  );
+
 </script>
 
 <div class="header">

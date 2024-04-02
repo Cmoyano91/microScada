@@ -1,8 +1,0 @@
-Array
-(
-    [Com2|cons_VelCintaZ2] => 
-    [Com2|cons_Temp] => 
-    [Com2|cons_Dens] => 
-    [Com2|Scada_selTemp] => 0
-    [Com2|Scada_selVisc] => 0
-)

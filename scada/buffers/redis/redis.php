@@ -34,6 +34,7 @@
 	
 	// --- Recogemos los nombres de las variables ---
 	$coll = array_unique( array_keys( $_REQUEST ) );
+	
 
 	
 	$collOPC = array();
@@ -54,6 +55,7 @@
 			$collOPC[] = $value;
 		}
 	}
+
 	
 	// --- Pedimos los datos a redis ---
 	
@@ -83,7 +85,8 @@
 	// --- Procesamos los outValues ---
 	
 	$vars = array();
-	
+
+
 	
 	// --- Comprobamos que el resultado no este vacio ---
 	if( !empty( $result ) )
@@ -96,6 +99,7 @@
 			$vars[ $key ] = $value;
 		}
 	}
+	
 	
 	
 	// --- Añadimos los datos del SERVER ---
@@ -131,6 +135,7 @@
 		
 		$vars[ $key ] = $valor;
 	}
+	
 
 	// --- Devolvemos los datos ---
 	echo json_encode( $vars );

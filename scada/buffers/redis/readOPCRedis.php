@@ -44,6 +44,8 @@
 	
 	$vars = array();
 	
+
+	
 	foreach( $datos as $linea )
 	{
 		// --- Empieza por '['? ---

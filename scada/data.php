@@ -49,6 +49,7 @@
 	$outValues = '';
 	$opcList = implode( ' ' , $collOPC );
 	
+	
 	$outValues .= shell_exec( "ocp\opc -r {$opcList}" );
 	
 	// --- Procesamos los outValues ---

@@ -311,7 +311,8 @@
 							<br />
 							<br />
 							
-							<input type="submit" value="Enviar" onclick="SCADA.post( 'form2' ); return false;"> 
+							<input type="submit" value="Enviar" onclick="SCADA.post( 'form2' ); return false;">
+									<label> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </lbel>
 							<input type="reset">
 							
 						</form>
@@ -356,6 +357,7 @@
 							<br />
 							
 							<input type="submit" value="Enviar" onclick="SCADA.post( 'form3' ); return false;"> 
+								<label> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </lbel>
 							<input type="reset">
 
 						</form>

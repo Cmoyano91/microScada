@@ -173,6 +173,7 @@
 							<br />
 							<br />
 							<input type="submit" value="Enviar" onclick="SCADA.post( 'form1' ); return false;">
+								<label> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </lbel>
 							<input type="reset">
 							
 						</form>

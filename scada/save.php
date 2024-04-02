@@ -25,7 +25,7 @@
 	
 	$coll = $_REQUEST ;
 	
-		file_put_contents("codecoll.txt" , print_r($coll,  true));
+		//file_put_contents("codecoll.txt" , print_r($coll,  true));
 	
 	$cmd = '';
 	
@@ -38,10 +38,10 @@
 			$cmd .= '[' . strtr( $key , '|_-' , '].:' ) . '="' . $value . '" ';
 		}
 	}
-		file_put_contents("codecmd.txt" , print_r($cmd,  true));
+		//file_put_contents("codecmd.txt" , print_r($cmd,  true));
 		
 	$succes = shell_exec( "ocp\opc -w {$cmd}" );
 
-		file_put_contents("codesucess.txt" , print_r($succes,  true));
+		//file_put_contents("codesucess.txt" , print_r($succes,  true));
 	
 	echo json_encode( $succes );

@@ -1,0 +1,1 @@
+[Com2]cons.VelCintaZ2="2000" 

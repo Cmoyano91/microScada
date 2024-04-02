@@ -1,0 +1,7 @@
+Array
+(
+    [Com2|cons_VelInyectorZ1] => 
+    [Com2|cons_VelCintaZ2] => 2000
+    [Com2|cons_VelBombaZ2] => 
+    [Com2|cons_VelCintaZ3] => 
+)

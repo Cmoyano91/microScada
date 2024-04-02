@@ -1,0 +1,1 @@
+[Com2]Scada.selTemp="0" [Com2]Scada.selVisc="0" 

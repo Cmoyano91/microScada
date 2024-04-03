@@ -5,6 +5,6 @@ En esta página podremos activar o desactivar los diferentes elementos de la má
 3— Para parar los variadores pulsaremos el botón físico de la pantalla stop, teniendo seleccionados en On los que queremos parar, después presionamos los botones Off.
 4— Para accionar los pistones, pulsaremos el botón de On del que queramos accionar.
 5— Para parar los pistones, pulsaremos el botón de Off.
-6— Para cambiar las velocidades, deben ser de una a una, estando en Manual, al poner la maquina a automatico las velocidades volveran a su valor de origen.
+6— Para cambiar las velocidades, debemos estar en Manual, al poner la maquina a automatico las velocidades volveran a su valor de origen.
 
 Si el Rearme esta listo y todo esta correcto pero no permite cambiar los pulsadores On y Off, recargue la pagina.

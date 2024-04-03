@@ -28,6 +28,10 @@
 		//file_put_contents("codecoll.txt" , print_r($coll,  true));
 	
 	$cmd = '';
+	$cmdFirst = '';
+	
+	$items = 0;
+
 	
 	foreach( $coll as $key=>$value )
 	{
@@ -35,11 +39,26 @@
 		if( $value != '')
 		{
 			// --- convertimos la cadena y añadimos la variable ---
-			$cmd .= '[' . strtr( $key , '|_-' , '].:' ) . '="' . $value . '" ';
+			$cmd.= '[' . strtr( $key , '|_-' , '].:' ) . '="' . $value . '" ';
+			
+			// --- El primero  ??? ---
+			if ( $items == 0)
+			{
+				$cmdFirst = $cmd;
+			}
+			
+			$items++;
 		}
+	}
+	
+	// --- Miramos si el Numero de Elementos es PAR ---
+	if (( $items % 2 ) == 0 )
+	{
+		$cmd.= $cmdFirst;
 	}
 		//file_put_contents("codecmd.txt" , print_r($cmd,  true));
 		
+
 	$succes = shell_exec( "ocp\opc -w {$cmd}" );
 
 		//file_put_contents("codesucess.txt" , print_r($succes,  true));

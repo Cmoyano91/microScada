@@ -42,6 +42,14 @@ div
 	width: auto;
 	height: 230px;
 }
+.accioneslimpieza
+{
+	position:absolute;
+	top: 420px;
+	margin: 20px 20px 0px 20px;
+	width: auto;
+	height: 300px;
+}
 
 .form
 {

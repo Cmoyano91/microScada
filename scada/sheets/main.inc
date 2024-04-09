@@ -9,7 +9,19 @@
 						],
 						'center'
 					);
+					
+	var vaci = new MODAL(
+						"vaci", 
+						"Confirmación",
+						[
+							"¿Seguro que quieres vaciar las cabinas?",
+							"<button onClick=\"setTimeout( function() { SCADA.sendVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); SCADA.sendVariables( 'Com2|Vaciado_Button' , 1 );vaci.closeModal();\">Si</button>"+
+							"<button onClick=\"vaci.closeModal();\">No</button>"
+						],
+						'center'
+					);
 </script>
+
 
 <div class="main">
 	<div class="estados">
@@ -222,7 +234,7 @@
 			</table>
 			<div>
 			<br />
-				<button onClick="setTimeout( function() { SCADA.sendVariables( 'Com2|Vaciado_Button' , 0 ) }, 2000 ); SCADA.sendVariables( 'Com2|Vaciado_Button' , 1 );">Vaciar</button>
+				<button onClick="vaci.openModal();">Vaciar</button>
 				<button onClick="conf.openModal();">Reset Contadores</button>
 			</div>
 		</div>

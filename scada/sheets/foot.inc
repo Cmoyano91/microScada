@@ -41,7 +41,7 @@
 	</div>
 	<div>
 		<b>Modo:</b>
-		<span value="0" datafield=" Com2|Limp_Limpieza " dataanimtype="switch" dataanimvalues="Normal;Limpieza"></span>
+		<span value="0" datafield="Com2|limp_limpieza" dataanimtype="switch" dataanimvalues="Normal;Limpieza"></span>
 		<br>
 		<div class="button">
 			<button class="pulsador" onClick="location.href = '?limpieza';">Limpieza</button>	

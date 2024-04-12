@@ -119,7 +119,7 @@ div
 .modal-dialog {
 	background-color:white;
 	width: 60%;
-	height: 55vh;
+	height: 62vh;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -134,7 +134,7 @@ div
 
 .modal-dialog-grid {
 	display: grid;
-	grid-template-rows: 2em calc(55vh - 2em);
+	grid-template-rows: 2em calc(62vh - 2em);
 	grid-template-areas:
 	"area-header"
 	"area-body"

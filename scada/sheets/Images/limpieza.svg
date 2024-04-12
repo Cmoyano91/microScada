@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,7 +37,7 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4966329"
-     inkscape:cx="250.44113"
+     inkscape:cx="187.13157"
      inkscape:cy="95.565097"
      inkscape:window-width="1366"
      inkscape:window-height="721"
@@ -80,7 +80,7 @@
        inkscape:connector-curvature="0"
        id="path1105"
        d="m 49.364721,85.120829 24.248711,-14.000001 -8.660255,-5 -24.24871,14.000001 z"
-       style="fill:#ffb380;stroke:#000000;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+       style="fill:#ffb380;stroke:#000000;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path1111"
@@ -116,18 +116,17 @@
        id="path861"
        d="m 49.50927,98.120802 v -1.999988 l 17.320509,9.999976 v 2 z"
        style="fill:#deaa87;stroke:#000000;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-	   	 <circle
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	    id="Z3_cinta"
+       id="Z3_cinta"
        cx="71.377388"
        cy="118.43864"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z3_mot1_activo">
-       <Title>Cinta Z3</Title>
-	   </circle>
-	   
+      <Title>Cinta Z3</Title>
+    </circle>
     <path
        inkscape:connector-curvature="0"
        id="path861-5"
@@ -291,98 +290,88 @@
          id="path932"
          inkscape:connector-curvature="0" />
     </g>
-	
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="130.67558"
        y="162.61528"
        id="text192" />
-	   		 
-	 <circle
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	   id="Z2_cinta"
-       cx="53.875599"
-       cy="108.62704"
+       id="Z2_cinta"
+       cx="56.521435"
+       cy="109.1562"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z2_mot1_activo">
-       <Title>Cinta Z2</Title>
-	   </circle>
-	   
-	   		 
-	 <circle
+      <Title>Cinta Z2</Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	   id="Z2_bomba"
-       cx="54.052383"
-       cy="117.02436"
+       id="Z2_bomba"
+       cx="56.698219"
+       cy="117.55353"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z2_bomba_activo">
-       <Title>Bomba Z2</Title>
-	   </circle>
-	   
-  	 <circle
+      <Title>Bomba Z2</Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	  id="Z4_Cadena"
-       cx="86.404175"
-       cy="133.64221"
+       id="Z4_Cadena"
+       cx="87.462509"
+       cy="134.70053"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z4_mot1_activo">
-       <Title>Cadena Z4 </Title>
-	   </circle>
-	   
-	    <circle
+      <Title>Cadena Z4 </Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	  id="Z5_Cadena"
-       cx="107.61846"
-       cy="147.07794"
+       id="Z5_Cadena"
+       cx="109.20597"
+       cy="147.6071"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z5_mot1_activo">
-       <Title>Cadena Z5 </Title>
-	   </circle>
-
-	   <circle
+      <Title>Cadena Z5 </Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	  id="Z6_Cadena"
-       cx="129.71669"
-       cy="159.62971"
+       id="Z6_Cadena"
+       cx="131.30417"
+       cy="160.15887"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z6_mot1_activo">
-       <Title>Cadena Z6 </Title>
-	   </circle>
-  
-	    <circle
+      <Title>Cadena Z6 </Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	    id="Z1_inyector"
+       id="Z1_inyector"
        cx="44.32917"
        cy="109.42258"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z1_mot1_activo">
-       <Title>inyector Z1 </Title>
-	   </circle>
-	   
-	   	   		 
-	 <circle
+      <Title>inyector Z1 </Title>
+    </circle>
+    <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-	    id="Z7_cinta"
+       id="Z7_cinta"
        cx="154.64346"
        cy="166.70114"
        r="3.5357146"
-	   dataanimvalues="#003785;#ffff00"
-	   dataanimtype="fill"
+       dataanimvalues="#a7ac93;#55d400"
+       dataanimtype="fill"
        datafield="Com2|Z7_mot1_activo">
-       <Title>Cinta Z7</Title>
-	   </circle>
+      <Title>Cinta Z7</Title>
+    </circle>
   </g>
 </svg>

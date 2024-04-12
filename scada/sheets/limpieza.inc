@@ -6,11 +6,15 @@
 							"alerta",
 							"Alerta", 
 							[
-								"Se necesita Rearme.", 
-								"Comprueba si esta la seta pulsada.",
-								"Comprueba que la presión de aire está corectamente.",
+								" ‎",
+								"- Se necesita Rearme.", 
+								"- Comprueba si esta la seta pulsada.",
+								"- Comprueba que la presión de aire está corectamente.",
+								"- Comprueba que el modo Manual esta activado.",
+								" ‎",
 								"Si todo esta correcto y la pagina no le permite pulsar los botones On/Off, recargue la pagina."
 							]
+						
 						);
 		
 		// --- Modal de Modo Manual ---
@@ -18,9 +22,9 @@
 							"modLimp",
 							"Modo Limpieza",
 							[
-								"¿Quieres activar el modo manual?",
-								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|Limp_Limpieza' , 1 ); modLimp.closeModal( 'modLimp' );\"> SI </button>"+
-								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|Limp_Limpieza' , 0 ); modLimp.closeModal( 'modLimp' );\"> NO </button>",
+								"¿Quieres activar el modo de Limpieza?",
+								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|limp_limpieza' , 1 ); modLimp.closeModal( 'modLimp' );\"> SI </button>"+
+								"<button value=\"0\" onClick=\"SCADA.sendVariables( 'Com2|limp_limpieza' , 0 ); modLimp.closeModal( 'modLimp' );\"> NO </button>",
 								"Si quieres cambiar el modo otra vez tienes un selector en la parte superior izquierda del modo Limpieza."
 							],
 							'center'
@@ -183,10 +187,9 @@
 <div class="estados derecha">
 		<h1 class="titulo">Estado Variadores cadena</h1>
 		<table class="interface">
-				<th colspan="3">
+				<th colspan="4">
 					Selector
 				</th>
-				<th></th>
 				<th>
 					Estado
 				</th>
@@ -269,11 +272,10 @@
 				<td class="value" datafield = "Com2|Z6_mot1_activo"> 0 </td>
 			</tr>
 						<tr>
-				<th colspan="3">
+				<th colspan="4">
 					Zona 7
 				</th>
-				<th>
-				</th>
+				
 				<th>
 					Estado
 				</

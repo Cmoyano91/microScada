@@ -302,7 +302,11 @@
 											coll [ x ].className = values [ status ];
 											break;
 										}
-										
+										case "bgcolor2":
+										{
+											coll [ x ].className = values [ status ];
+											break;
+										}
 										/**
 										 * 
 										 * values[ 0 ] --> Duración

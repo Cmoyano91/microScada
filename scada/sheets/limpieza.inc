@@ -80,7 +80,7 @@
 			<tr>
 				<td>Modo Limpieza</td> 
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_Limpieza' , 1 )" datafield="Com2|Limp_Limpieza" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_Limpieza' , 0 )" datafield="Com2|Limp_Limpieza" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_Limpieza' , 0 )" datafield="Com2|Limp_Limpieza" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Limp_Limpieza"> 0 </td>
 			</tr>
 			<tr>
@@ -94,7 +94,7 @@
 			<tr>
 				<td>Variador Z1</td> 
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ1Mot1' , 1 )" datafield="Com2|Limp_PZ1Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ1Mot1' , 0 )" datafield="Com2|Limp_PZ1Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ1Mot1' , 0 )" datafield="Com2|Limp_PZ1Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Z1_mot1_activo"> 0 </td>
 			</tr>	
 			<tr>	
@@ -108,13 +108,13 @@
 			<tr>
 				<td>Variador Z2 Cinta</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Mot1' , 1 )" datafield="Com2|Limp_PZ2Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Mot1' , 0 )" datafield="Com2|Limp_PZ2Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Mot1' , 0 )" datafield="Com2|Limp_PZ2Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Z2_mot1_activo"> 0 </td>
 			</tr>
 			<tr>
 				<td>Variador Z2 Lacadora</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Bomba' , 1 )" datafield="Com2|Limp_PZ2Bomba" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Bomba' , 0 )" datafield="Com2|Limp_PZ2Bomba" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ2Bomba' , 0 )" datafield="Com2|Limp_PZ2Bomba" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Z2_bomba_activo"> 0 </td>
 			</tr>
 			<tr>
@@ -128,7 +128,7 @@
 			<tr>
 				<td>Variador Z3</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ3Mot1' , 1 )" datafield="Com2|Limp_PZ3Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ3Mot1' , 0 )" datafield="Com2|Limp_PZ3Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ3Mot1' , 0 )" datafield="Com2|Limp_PZ3Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Z3_mot1_activo"> 0 </td>
 			</tr>
 		</table>
@@ -197,7 +197,7 @@
 			<tr>
 				<td>Modo Manual</td> 
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_selector' , 1 )" datafield="Com2|scada_selector" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_selector' , 0 )" datafield="Com2|scada_selector" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_selector' , 0 )" datafield="Com2|scada_selector" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td></td>
 				<td class="value" datafield = "Com2|scada_selector"> 0 </td>
 			</tr>
@@ -215,7 +215,7 @@
 			<tr>
 				<td>Variador Z4 Arrastre 1</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ4Mot1' , 1 )" datafield="Com2|Limp_PZ4Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ4Mot1' , 0 )" datafield="Com2|Limp_PZ4Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ4Mot1' , 0 )" datafield="Com2|Limp_PZ4Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="action">
 				<button value="0" 
 				onmousedown="SCADA.sendVariables( 'Com2|Limp_PZ4Mot1Movimiento' , 1 )"
@@ -239,7 +239,7 @@
 			<tr>
 				<td>Variador Z5 Arrastre 2</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ5Mot1' , 1 )" datafield="Com2|Limp_PZ5Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ5Mot1' , 0 )" datafield="Com2|Limp_PZ5Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ5Mot1' , 0 )" datafield="Com2|Limp_PZ5Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="action">
 				<button value="0" 
 				onmousedown="SCADA.sendVariables( 'Com2|Limp_PZ5Mot1Movimiento' , 1 )"
@@ -262,7 +262,7 @@
 			<tr>
 				<td>Variador Z6 Arrastre 3</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ6Mot1' , 1 )" datafield="Com2|Limp_PZ6Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ6Mot1' , 0 )" datafield="Com2|Limp_PZ6Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ6Mot1' , 0 )" datafield="Com2|Limp_PZ6Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="action">
 				<button value="0" 
 				onmousedown="SCADA.sendVariables( 'Com2|Limp_PZ6Mot1Movimiento' , 1 )"
@@ -283,7 +283,7 @@
 			<tr>
 				<td>Variador Z7</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ7Mot1' , 1 )" datafield="Com2|Limp_PZ7Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
-				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ7Mot1' , 0 )" datafield="Com2|Limp_PZ7Mot1" dataanimvalues="on;off" dataanimtype="bgcolor"> Off </button></td>
+				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ7Mot1' , 0 )" datafield="Com2|Limp_PZ7Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td></td>
 				<td class="value" datafield = "Com2|Z7_mot1_activo"> 0 </td>
 			</tr>

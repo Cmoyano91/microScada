@@ -43,6 +43,13 @@
 				</td>
 			</tr>
 			<tr>
+			<tr>
+				<td>Zona superior</td> 
+				<td class="value">
+					<span datafield="Com2|Seg_ZonaSuperiorOk">Seg.Ok</span>
+				</td>
+			</tr>
+			<tr>
 				<th>
 					Zona 1
 				</th>
@@ -162,10 +169,16 @@
 				<tr>
 					<td>
 						<form method="POST" id="form1">
-							<label>Velocidad: </label>
+							<label>Velocidad Cinta: </label>
 							<label datafield="Com2|cons_VelCintaZ2"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCintaZ2">
+							<input type ="text" name="Com2|VelocidadCinta">
+							<br />
+
+							<label>Velocidad Bomba: </label>
+							<label datafield="Com2|cons_VelBombaZ2"> </label>
+							<br />
+							<input type ="text" name="Com2|VelocidadBomba">
 							<br />
 							
 							<label>Temperatura:</label>
@@ -181,8 +194,7 @@
 							<br />
 							<input type ="text" name="Com2|cons_Dens">
 							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="SCADA.sendChecked( 'Com2|Scada_selVisc' )">
-							
-							<br />
+					
 							<br />
 							<input type="submit" value="Enviar" onclick="SCADA.post( 'form1' ); return false;">
 								<label> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </lbel>
@@ -238,5 +250,57 @@
 				<button onClick="conf.openModal();">Reset Contadores</button>
 			</div>
 		</div>
+		
+
 	</div>
+	
+	<div class="estados derecha" style="width:200px">
+		<h1 class="titulo">Estado Zona Superior</h1>
+		<table class="interface">
+		<tr>
+				<th>
+					Marcha
+				</th>
+				<th>
+					paro
+				</th>
+				<th>
+					Estado
+				</th>
+			</tr>
+			<th colspan="3">
+					ventilazion
+				</th>
+			<tr>
+
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_VentilacionStart' , 1 )" datafield="Com2|Seg_VentilacionStart" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_VentilacionStart' , 0 )" datafield="Com2|Seg_VentilacionStart" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
+				
+			<td class="value" datafield = "Com2|Periferia-17-O_0"> 0 </td>
+			</tr>
+			<tr>
+				<th colspan="3">
+					Aspiracion
+				</th>
+			<tr>
+
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_AspiracionStart' , 1 )" datafield="Com2|Seg_AspiracionStart" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_AspiracionStart' , 0 )" datafield="Com2|Seg_AspiracionStart" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
+			
+				<td class="value" datafield = "Com2|Periferia-17-O_1"> 0 </td>
+			</tr>
+			<tr>
+				<th colspan="3">
+					Calefaccion
+				</th>
+			<tr>
+
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_CalefaccionStart' , 1 )" datafield="Com2|Seg_CalefaccionStart" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
+			<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Seg_CalefaccionStart' , 0 )" datafield="Com2|Seg_CalefaccionStart" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
+			
+			
+				<td class="value" datafield = "Com2|Periferia-18-O_7"> 0 </td>
+			</tr>
+		</table>
+		
 </div>

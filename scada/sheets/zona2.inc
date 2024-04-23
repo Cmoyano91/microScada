@@ -51,7 +51,7 @@
 				<tr>
 					<td>Temperatura del Producto</td>
 					<td class="value">
-						<span datafield="Com2|scpTemp1_Output" datafixed="1">0</span><span class="unit"> ºC</span>
+						<span datafield="Com2|ValoresEscalados_scpTemp1_Output" datafixed="1">0</span><span class="unit"> ºC</span>
 					</td>
 				</tr>
 				<tr>
@@ -62,7 +62,7 @@
 				<tr>
 					<td>Viscosidad del Producto</td>
 					<td class="value">
-						<span datafield="Com2|scpVisc_Output">0</span>
+						<span datafield="Com2|resul_viscosidad">0</span>
 					</td>
 				</tr>
 			</table>

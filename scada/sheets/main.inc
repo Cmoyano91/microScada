@@ -184,10 +184,10 @@
 							<br />
 							
 							<label>Temperatura:</label>
-							<label datafield="Com2|scpTemp1_Output" datafixed="1"> </label>
+							<label datafield="Com2|ValoresEscalados_scpTemp1_Output" datafixed="1"> </label>
 							<label class="unit"> ºC</label>
 							<br />
-							<input type ="text" name="Com2|ValoresEscalados_TempDeseado"> 
+							<input type ="text" name="Com2|ValoresEscalados_Temp2Deseado"> 
 							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="SCADA.sendChecked( 'Com2|Scada_selTemp' )">
 						
 							<br />
@@ -195,7 +195,7 @@
 							<label>Viscosidad:</label>
 							<label datafield="Com2|resul_viscosidad" > </label>
 							<br />
-							<input type ="text" name="Com2|ValoresEscalados_viscDeseado">
+							<input type ="text" name="Com2|ValoresEscalados_visc2Deseado">
 							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="SCADA.sendChecked( 'Com2|Scada_selVisc' )">
 					
 							<br />

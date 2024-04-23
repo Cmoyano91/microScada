@@ -18,7 +18,7 @@
 				<tr>
 					<td>Velocidad Cadena</td>
 					<td class="value">
-						<span datafield="" >0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z1inyectorActual_output" datafixed="0">0</span><span class="unit"> Hz</span>
 					</td>
 				</tr>
 				<tr>

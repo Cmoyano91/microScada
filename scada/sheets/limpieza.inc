@@ -142,27 +142,31 @@
 					<td>
 						<form method="POST" id="form2">
 							<label>Velocidad Inyector Z1: </label>
-							<label datafield="Com2|cons_VelInyectorZ1"> </label>
+							<label datafield="Com2|ValoresEscalados_Z1Inyector1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="Com2|cons_VelInyectorZ1">
+							<input type ="text" name="ValoresEscalados_Z1InyectorDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z2: </label>
 							<label datafield="Com2|ValoresEscalados_Z2Cinta1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="ValoresEscalados_Z2CintaDeseadoLimp">
 							<br />
 						
 							<label>Velocidad Bomba Z2: </label>
 							<label datafield="Com2|ValoresEscalados_Z2Bomba1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="ValoresEscalados_Z2BombaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z3: </label>
-							<label datafield="Com2|cons_VelCintaZ3"> </label>
+							<label datafield="Com2|ValoresEscalados_Z3Cinta1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCintaZ3">
+							<input type ="text" name="ValoresEscalados_Z3CintaDeseadoLimp">
 							<br />
 							<br />
 							
@@ -300,26 +304,30 @@
 	
 							<label>Velocidad Arrastre Z4: </label>
 							<label datafield="Com2|ValoresEscalados_Z4Cadena1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="ValoresEscalados_Z4cadenaDeseadoLimp">
 							<br />
 						
 							<label>Velocidad Arrastre Z5: </label>
 							<label datafield="Com2|ValoresEscalados_Z5Cadena1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="ValoresEscalados_Z5cadenaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Arrastre Z6: </label>
 							<label datafield="Com2|ValoresEscalados_Z6Cadena1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="ValoresEscalados_Z6cadenaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z7: </label>
-							<label datafield="Com2|cons_VelCintaZ7"> </label>
+							<label datafield="Com2|ValoresEscalados_Z7Cinta1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCintaZ7">
+							<input type ="text" name="ValoresEscalados_Z7CintaDeseadoLimp">
 							<br />
 							<br />
 							

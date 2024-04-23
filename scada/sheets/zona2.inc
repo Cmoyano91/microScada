@@ -23,7 +23,7 @@
 				<tr>
 					<td>Velocidad Cinta</td>
 					<td class="value">
-						<span datafield="Com2|ValoresEscalados_Z2CintaActual_output" datafixed="0">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z2CintaActual_output" datafixed="0">0</span><span class="unit"> Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -40,7 +40,7 @@
 				<tr>
 					<td>Velocidad Lacadora</td>
 					<td class="value">
-						<span datafield="Com2|ValoresEscalados_Z2BombaActual_output" datafixed="0">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z2BombaActual_output" datafixed="0">0</span><span class="unit"> Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -51,7 +51,7 @@
 				<tr>
 					<td>Temperatura del Producto</td>
 					<td class="value">
-						<span datafield="Com2|scpTemp1_Output" datafixed="1">0</span><span class="unit">ºC</span>
+						<span datafield="Com2|scpTemp1_Output" datafixed="1">0</span><span class="unit"> ºC</span>
 					</td>
 				</tr>
 				<tr>
@@ -86,7 +86,7 @@
 				<tr>
 					<td>Velocidad Cinta</td>
 					<td class="value">
-						<span datafield="">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z3CintaActual_output" datafixed="0">0</span><span class="unit"> Hz</span>
 					</td>
 				</tr>
 				

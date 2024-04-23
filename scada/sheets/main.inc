@@ -171,18 +171,21 @@
 						<form method="POST" id="form1">
 							<label>Velocidad Cinta: </label>
 							<label datafield="Com2|ValoresEscalados_Z2Cinta1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_Z2CintaDeseado">
 							<br />
 
 							<label>Velocidad Bomba: </label>
 							<label datafield="Com2|ValoresEscalados_Z2Bomba1_output" datafixed="0"> </label>
+							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_Z2BombaDeseado">
 							<br />
 							
 							<label>Temperatura:</label>
 							<label datafield="Com2|scpTemp1_Output" datafixed="1"> </label>
+							<label class="unit"> ºC</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_TempDeseado"> 
 							<input type="checkbox" value = "1" name="Com2|Scada_selTemp" datafield="Com2|Scada_selTemp" onClick="SCADA.sendChecked( 'Com2|Scada_selTemp' )">

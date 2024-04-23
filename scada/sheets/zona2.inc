@@ -23,7 +23,7 @@
 				<tr>
 					<td>Velocidad Cinta</td>
 					<td class="value">
-						<span datafield="Com2|V311U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z2CintaActual_output" datafixed="0">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -40,7 +40,7 @@
 				<tr>
 					<td>Velocidad Lacadora</td>
 					<td class="value">
-						<span datafield="Com2|V313U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z2BombaActual_output" datafixed="0">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>
@@ -62,7 +62,7 @@
 				<tr>
 					<td>Viscosidad del Producto</td>
 					<td class="value">
-						<span datafield="Com2|Periferia-11-I_Ch0Data">0</span>
+						<span datafield="Com2|scpVisc_Output">0</span>
 					</td>
 				</tr>
 			</table>

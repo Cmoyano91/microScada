@@ -17,7 +17,7 @@
 				<tr>
 					<td>Velocidad Arrastre</td>
 					<td class="value">
-						<span datafield="Com2|V211U1-I_OutputFreq">0</span><span class="unit">Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z4CadenaActual_output" datafixed="0">0</span><span class="unit">Hz</span>
 					</td>
 				</tr>
 				<tr>

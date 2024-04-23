@@ -293,15 +293,15 @@
 							<br />
 							
 							<label>Velocidad Cinta Z2: </label>
-							<label datafield="Com2|cons_VelCintaZ2"> </label>
+							<label datafield="Com2|ValoresEscalados_Z2Cinta1_output" datafixed="0"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCintaZ2">
+							<input type ="text" name="Com2|ValoresEscalados_Z2CintaDeseadoLimp">
 							<br />
 						
 							<label>Velocidad Bomba Z2: </label>
-							<label datafield="Com2|cons_VelBombaZ2"> </label>
+							<label datafield="Com2|ValoresEscalados_Z2Bomba1_output" datafixed="0"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelBombaZ2">
+							<input type ="text" name="Com2|ValoresEscalados_Z2BombaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z3: </label>
@@ -332,21 +332,21 @@
 						<form method="POST" id="form3">
 	
 							<label>Velocidad Arrastre Z4: </label>
-							<label datafield="Com2|cons_VelCadenaZ4"> </label>
+							<label datafield="Com2|ValoresEscalados_Z4Cadena1_output" datafixed="0"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCadenaZ4">
+							<input type ="text" name="Com2|ValoresEscalados_Z4CadenaDeseadoLimp">
 							<br />
 						
 							<label>Velocidad Arrastre Z5: </label>
-							<label datafield="Com2|cons_VelCadenaZ5"> </label>
+							<label datafield="Com2|ValoresEscalados_Z5Cadena1_output" datafixed="0"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCadenaZ5">
+							<input type ="text" name="Com2|ValoresEscalados_Z5cadenaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Arrastre Z6: </label>
-							<label datafield="Com2|cons_VelCadenaZ6"> </label>
+							<label datafield="Com2|ValoresEscalados_Z6Cadena1_output" datafixed="0"> </label>
 							<br />
-							<input type ="text" name="Com2|cons_VelCadenaZ6">
+							<input type ="text" name="Com2|ValoresEscalados_Z6cadenaDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z7: </label>

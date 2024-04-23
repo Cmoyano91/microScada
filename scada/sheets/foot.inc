@@ -33,7 +33,7 @@
 <div class="footer">
 	<div>
 		<b>Modo:</b>
-		<span value="0" datafield="Com2|scada_selector" dataanimtype="switch" dataanimvalues="Automatico;Manual"></span>
+		<span value="0" datafield="Com2|seg_manualOK" dataanimtype="switch" dataanimvalues="Automatico;Manual"></span>
 		<br>
 		<div class="button">
 			<button class="pulsador" onClick="location.href = '?manual';">Manual</button>	
@@ -41,7 +41,7 @@
 	</div>
 	<div>
 		<b>Modo:</b>
-		<span value="0" datafield="Com2|limp_limpieza" dataanimtype="switch" dataanimvalues="Normal;Limpieza"></span>
+		<span value="0" datafield="Com2|limp_Seguridad" dataanimtype="switch" dataanimvalues="Normal;Limpieza"></span>
 		<br>
 		<div class="button">
 			<button class="pulsador" onClick="location.href = '?limpieza';">Limpieza</button>	

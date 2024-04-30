@@ -62,7 +62,7 @@
 				<tr>
 					<td>Viscosidad del Producto</td>
 					<td class="value">
-						<span datafield="Com2|resul_viscosidad">0</span>
+						<span datafield="Com2|resul_viscosidad">0</span><span class="unit"> η</span>
 					</td>
 				</tr>
 			</table>

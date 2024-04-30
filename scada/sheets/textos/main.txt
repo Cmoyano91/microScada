@@ -4,6 +4,7 @@ Esta es la pantalla principal en la que podemos ver información general de la m
  — En la parte inferior izquierda podemos cambiar la velocidad de la cinta de lacado, también la temperatura y la viscosidad del producto seleccionando la que queremos cambiar. (Ella sola se encargará de regularlo)
  — En la parte inferior derecha tenemos un contador con los discos que hay en cada zona, un botón para vaciar las zonas de manera ordenada y otro botón para resetear los contadores.
  — Podemos pinchar en las diferentes zonas de la imagen para acceder a información detallada de dicha zona.
+ — Podemos Activar y desactivar los elementos de la Zona superior.
 
 La cabecera y el pie de página estarán siempre visibles.
 

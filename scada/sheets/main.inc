@@ -170,8 +170,8 @@
 					<td>
 						<form method="POST" id="form1">
 							<label>Velocidad Cinta: </label>
-							<label datafield="Com2|ValoresEscalados_Z2Cinta1_output" datafixed="0"> </label>
-							<label class="unit"> Hz</label>
+							<label datafield="Com2|ValoresEscalados_Z2CintaDeseado" datafixed="0"> </label>
+							<label class="unit"> Cm/s</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_Z2CintaDeseado">
 							<br />
@@ -184,7 +184,7 @@
 							<br />
 							
 							<label>Temperatura:</label>
-							<label datafield="Com2|ValoresEscalados_scpTemp1_Output" datafixed="1"> </label>
+							<label datafield="Com2|ValoresEscalados_Temp2Deseado" datafixed="1"> </label>
 							<label class="unit"> ºC</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_Temp2Deseado"> 
@@ -193,7 +193,8 @@
 							<br />
 						
 							<label>Viscosidad:</label>
-							<label datafield="Com2|resul_viscosidad" > </label>
+							<label datafield="Com2|ValoresEscalados_visc2Deseado" > </label>
+							<label class="unit"> η</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_visc2Deseado">
 							<input type="checkbox" value = "1" name="Com2|Scada_selVisc" datafield="Com2|Scada_selVisc"  onClick="SCADA.sendChecked( 'Com2|Scada_selVisc' )">

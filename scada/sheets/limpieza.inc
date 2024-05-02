@@ -14,7 +14,6 @@
 								" ‎",
 								"Si todo esta correcto y la pagina no le permite pulsar los botones On/Off, recargue la pagina."
 							]
-						
 						);
 		
 		// --- Modal de Modo Manual ---

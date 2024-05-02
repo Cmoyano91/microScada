@@ -23,8 +23,8 @@
 	 *
 	 */
 	var SCADA = {
-					subsFunction: null,  	/**< Funcion que llama al actualizar */
-					subsVars: null,		/**< Variables que se añaden al actualizar */
+					subsFunction: null,  	/**< Funcion que llama al actualizar >*/
+					subsVars: null,		/**< Variables que se añaden al actualizar >*/
 					
 					
 					/**
@@ -409,11 +409,12 @@
 					sendVariables( source , val )
 					{
 						var items = {};
-						items[source] = val;
+					items[source] = val;
 
 
 
-						items = $.param( items );
+						 items = $.param( items ); 
+						 
 						$.ajax(
 								{
 									url: "save.php",

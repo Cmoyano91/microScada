@@ -6,9 +6,12 @@
 							"alerta",
 							"Alerta", 
 							[
-								"Se necesita Rearme.", 
-								"Comprueba si esta la seta pulsada.",
-								"Comprueba que la presión de aire está corectamente.",
+								" ‎",
+								"- Se necesita Rearme.", 
+								"- Comprueba si esta la seta pulsada.",
+								"- Comprueba que la presión de aire está corectamente.",
+								"- Comprueba que el modo Limpieza esta desactivado.",
+								" ‎",
 								"Si todo esta correcto y la pagina no le permite pulsar los botones On/Off, recargue la pagina."
 							]
 						);

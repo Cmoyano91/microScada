@@ -8,5 +8,5 @@ Esta es la pantalla principal en la que podemos ver información general de la m
 
 La cabecera y el pie de página estarán siempre visibles.
 
- — El pie de página muestra información básica de la máquina. También tenemos un botón para acceder al panel de control manual.	
+ — El pie de página muestra información básica de la máquina. También tenemos un botón para acceder al panel de control manual, de control de Limpieza, y las ayudas.	
  — La cabecera muestra información del servidor, nos muestra si tenemos alguna alarma y nos permite volver a la pantalla inicial si estamos en alguna otra pantalla.

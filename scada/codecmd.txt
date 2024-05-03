@@ -1,0 +1,1 @@
+[Com2]ValoresEscalados.Z4CadenaDeseadoLimp="35" [Com2]ValoresEscalados.Z5cadenaDeseadoLimp="35" 

@@ -1,0 +1,3 @@
+[Com2]ValoresEscalados.Z4CadenaDeseadoLimp=35     Error
+
+Wrote 0 of 1 items (0.02 seconds)

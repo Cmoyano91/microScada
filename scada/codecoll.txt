@@ -1,7 +1,0 @@
-Array
-(
-    [Com2|ValoresEscalados_Z4CadenaDeseadoLimp] => 35
-    [Com2|ValoresEscalados_Z5cadenaDeseadoLimp] => 35
-    [Com2|ValoresEscalados_Z6cadenaDeseadoLimp] => 
-    [Com2|ValoresEscalados_Z7CintaDeseadoLimp] => 
-)

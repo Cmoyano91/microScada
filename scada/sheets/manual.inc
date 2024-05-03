@@ -293,7 +293,7 @@
 							<label datafield="Com2|ValoresEscalados_Z1Inyector1_output" datafixed="0"> </label>
 							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="ValoresEscalados_Z1InnyectorDeseadoLimp">
+							<input type ="text" name="Com2|ValoresEscalados_Z1InyectorDeseadoLimp">
 							<br />
 							
 							<label>Velocidad Cinta Z2: </label>
@@ -314,7 +314,7 @@
 							<label datafield="Com2|ValoresEscalados_Z3Cinta1_output" datafixed="0"> </label>
 							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="ValoresEscalados_Z3CintaDeseadoLimp">
+							<input type ="text" name="Com2|ValoresEscalados_Z3CintaDeseadoLimp">
 							<br />
 							<br />
 							
@@ -363,7 +363,7 @@
 							<label datafield="Com2|ValoresEscalados_Z7Cinta1_output" datafixed="0"> </label>
 							<label class="unit"> Hz</label>
 							<br />
-							<input type ="text" name="ValoresEscalados_Z7CintaDeseadoLimp">
+							<input type ="text" name="Com2|ValoresEscalados_Z7CintaDeseadoLimp">
 							<br />
 							<br />
 							

@@ -93,7 +93,7 @@
 			</table>
 		</div>
 	</div>
-		<div class="fondo">
-			<?= getSvg( "sheets/Images/cinta1.svg" ); ?>	
+		<div class="fondo" style="left: 37.5%; top: 20;">
+			<?= getSvg( "sheets/Images/Zona2Zona3.svg" ); ?>	
 		</div>
 </div>

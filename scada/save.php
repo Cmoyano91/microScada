@@ -61,6 +61,6 @@
 
 	$succes = shell_exec( "ocp\opc -w {$cmd}" );
 
-		//file_put_contents("codesucess.txt" , print_r($succes,  true));
+		//file_put_contents("codesuces.txt" , print_r($succes,  true));
 	
 	echo json_encode( $succes );

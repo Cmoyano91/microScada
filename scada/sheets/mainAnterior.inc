@@ -92,21 +92,9 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 4 Cinta 1</td>
+				<td>Variador 4 </td>
 				<td class="value">
-					<span datafield="Com2|Z3_mot1_ready">V3_1.ok</span>
-				</td>
-			</tr>
-			<tr>
-				<td>Variador 5 Cinta 2</td>
-				<td class="value">
-					<span datafield="Com2|Z3_mot2_ready">V3_2.ok</span>
-				</td>
-			</tr>
-			<tr>
-				<td>Variador 6 Cinta 3</td>
-				<td class="value">
-					<span datafield="Com2|Z3_mot3_ready">V3_3.ok</span>
+					<span datafield="Com2|Z3_mot1_ready">V3.ok</span>
 				</td>
 			</tr>
 			<tr>
@@ -118,7 +106,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 7 Arrastre 1</td>
+				<td>Variador 5 Arrastre 1</td>
 				<td class="value">
 					<span datafield="Com2|Z4_mot1_ready">V4.ok</span>
 				</td>
@@ -132,7 +120,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 8 Arrastre 2</td>
+				<td>Variador 6 Arrastre 2</td>
 				<td class="value">
 					<span datafield="Com2|Z5_mot1_ready"> V5.ok</span>
 				</td>
@@ -146,7 +134,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 9 Arrastre 3</td>
+				<td>Variador 7 Arrastre 3</td>
 				<td class="value">
 					<span datafield="Com2|Z6_mot1_ready"> V6.ok</span>
 				</td>
@@ -160,7 +148,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 10</td>
+				<td>Variador 8</td>
 				<td class="value">
 					<span datafield="Com2|Z7_mot1_ready"> V7.ok</span>
 				</td>
@@ -168,12 +156,12 @@
 		</table>
 	</div>
 
-	<div class="fondo" style="top: 5; left:42%;">
+	<div class="fondo">
 		<?= getSvg( "sheets/Images/esqueleto.svg" ); ?>
 		
 	</div>
 
-	<div class="acciones" style="left: 29.5%;">
+	<div class="acciones">
 		<div class="form">
 			<h1 class="titulo"> Parametros Zona 2 </h1>
 			<br>
@@ -222,7 +210,7 @@
 			</table>
 		</div>
 		
-		<div class="form" >
+		<div class="form">
 			<h1 class="titulo"> Conteo de almacenaje </h1>
 			<br />
 			<table class= "interface">

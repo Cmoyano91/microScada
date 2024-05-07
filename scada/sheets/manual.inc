@@ -311,7 +311,7 @@
 							<br />
 							
 							<label>Velocidad Cinta Z3: </label>
-							<label datafield="Com2|ValoresEscalados_Z3Cinta1_output" datafixed="0"> </label>
+							<label datafield="Com2|ValoresEscalados_Z3Cinta1P1_output" datafixed="0"> </label>
 							<label class="unit"> Hz</label>
 							<br />
 							<input type ="text" name="Com2|ValoresEscalados_Z3CintaDeseadoLimp">

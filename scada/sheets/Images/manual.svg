@@ -293,7 +293,7 @@
        id="path837-5"
        cx="42.993958"
        cy="155.65671"
-       datafield="Com2|Z3_mot1_activo"
+       datafield="Com2|Z3_MotoresMarcha"
        dataanimtype="fill"
        dataanimvalues="#a7ac93;#55d400"
        r="3.4962797" >
@@ -399,7 +399,7 @@
          inkscape:transform-center-y="-30.578892" />
     </g>
     <g
-       aria-label="Variador 5"
+       aria-label="Variador 7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text892-4"
        transform="translate(0,-2.6458334)">
@@ -488,7 +488,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       aria-label="Variador 6"
+       aria-label="Variador 8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text892-31"
        transform="translate(-2.116667,-4.7625002)">
@@ -530,7 +530,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       aria-label="Variador 7"
+       aria-label="Variador 9"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text892-5"
        transform="translate(-2.116667,-5.8208336)">
@@ -1007,7 +1007,7 @@
     <Title>Z7 Motor Cinta</Title>
   </circle>
     <g
-       aria-label="Variador 8"
+       aria-label="Variador 10"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text892-6"
        transform="translate(-2.116667,-6.879167)">

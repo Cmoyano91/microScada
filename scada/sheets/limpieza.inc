@@ -125,7 +125,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador Z3</td>
+				<td>Variadores Z3</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ3Mot1' , 1 )" datafield="Com2|Limp_PZ3Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|Limp_PZ3Mot1' , 0 )" datafield="Com2|Limp_PZ3Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
 				<td class="value" datafield = "Com2|Z3_mot1_activo"> 0 </td>

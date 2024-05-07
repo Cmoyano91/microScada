@@ -78,6 +78,11 @@
 					</th>
 				</tr>
 				<tr>
+					<td class="subtitulosz" colspan="2">
+						Cinta 1
+					</td>
+				</tr>
+				<tr>
 					<td>Motor Cinta Activo</td>
 					<td class="value">
 						<span datafield="Com2|Z3_mot1_activo">0</span>
@@ -86,10 +91,43 @@
 				<tr>
 					<td>Velocidad Cinta</td>
 					<td class="value">
-						<span datafield="Com2|ValoresEscalados_Z3CintaActual_output" datafixed="0">0</span><span class="unit"> Hz</span>
+						<span datafield="Com2|ValoresEscalados_Z3Cinta1P1_output" datafixed="0">0</span><span class="unit"> Hz</span>
 					</td>
 				</tr>
-				
+				<tr>
+					<td class="subtitulosz" colspan="2">
+						Cinta 2
+					</td>
+				</tr>
+				<tr>
+					<td>Motor Cinta  Activo</td>
+					<td class="value">
+						<span datafield="Com2|Z3_mot2_activo">0</span>
+					</td>
+				</tr>
+				<tr>
+					<td>Velocidad Cinta </td>
+					<td class="value">
+						<span datafield="Com2|ValoresEscalados_Z3Cinta1P2_output" datafixed="0">0</span><span class="unit"> Hz</span>
+					</td>
+					<tr>
+					<td class="subtitulosz" colspan="2">
+						Cinta 3
+					</td>
+				</tr>
+					<tr>
+					<td>Motor Cinta  Activo</td>
+					<td class="value">
+						<span datafield="Com2|Z3_mot3_activo">0</span>
+					</td>
+				</tr>
+				<tr>
+					<td>Velocidad Cinta</td>
+					<td class="value">
+						<span datafield="Com2|ValoresEscalados_Z3Cinta1P3_output" datafixed="0">0</span><span class="unit"> Hz</span>
+					</td>
+				</tr>
+				</tr>
 			</table>
 		</div>
 	</div>

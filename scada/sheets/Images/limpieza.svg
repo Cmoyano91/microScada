@@ -124,7 +124,7 @@
        r="3.5357146"
        dataanimvalues="#a7ac93;#55d400"
        dataanimtype="fill"
-       datafield="Com2|Z3_mot1_activo">
+       datafield="Com2|Z3_MotoresMarcha">
       <Title>Cinta Z3</Title>
     </circle>
     <path

@@ -88,7 +88,7 @@
 			}
 			case "server|fecha":
 			{
-				$valor = utf8_encode( strftime( "%A , %d de %B del %Y" ) ); //%A Dia de la semana, %d Dia del mes, %B Mes %Y Año
+				$valor = utf8_encode( strftime( "%A ; %d de %B del %Y" ) ); //%A Dia de la semana, %d Dia del mes, %B Mes %Y Año
 				
 				
 				break;

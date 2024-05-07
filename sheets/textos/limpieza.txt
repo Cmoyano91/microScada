@@ -1,0 +1,13 @@
+En esta página podremos activar o desactivar los diferentes variadores de la máquina en modo Limpieza.
+
+1— Activar el modo manual presionando el botón On del lado derecho.
+2— Activar el modo Limpieza presionando el botón On del lado izquierdo o desde el selector de la parte inferior.
+3— Para activar los variadores presionamos el botón de On y una vez este en verde apretamos el botón físico de la pantalla ‘Nassgewicht’ (el cuarto) que está iluminado.
+4— Para parar los variadores pulsaremos el botón físico de la pantalla stop, teniendo seleccionados en On los que queremos parar, después presionamos los botones Off.
+5— En los variadores de las cadenas disponemos de dos modos el On/Off,misma funcion que los otros variadores, y Modo ciclo, al pulsar una vez la cadena se pondra en marcha y no parara hasta que el detector detecte cadena.
+6— Para cambiar las velocidades, debemos estar en Manual, al poner la maquina a automatico las velocidades volveran a su valor de origen.
+7— El botón restablecer sirve para borrar las velocidades que deseamos cambiar.
+8— Al finalizar su utilidad desactive el modo de limpieza.
+
+
+Si el Rearme esta listo y todo esta correcto pero no permite cambiar los pulsadores On y Off, recargue la pagina.

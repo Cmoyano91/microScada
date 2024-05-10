@@ -54,8 +54,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.83277121"
-     inkscape:cx="219.09258"
-     inkscape:cy="239.15221"
+     inkscape:cx="405.44523"
+     inkscape:cy="285.03767"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -74,7 +74,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     showguides="false">
+     showguides="false"
+     inkscape:measure-start="721.096,288.964"
+     inkscape:measure-end="265,25">
     <inkscape:grid
        type="axonomgrid"
        id="grid25"
@@ -97,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -323,7 +325,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000018, 1.06500003;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 171.06307,85.21173 0.28992,18.79499 -42.94569,-25.061529"
+       d="m 171.35299,85.21173 v 18.79499 L 128.4073,78.945191"
        id="Cinta_Z3_P1-1-2"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -334,7 +336,7 @@
        inkscape:label="Cinta Z3 P1-1-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000006, 1.06500002;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 128.4073,78.945191 128.1175,60.271467 171.06307,85.21173"
+       d="m 128.4073,78.945191 -0.2898,-18.673724 43.45105,25.389579"
        id="Cinta_Z3_P1-1-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -356,7 +358,7 @@
        inkscape:label="Cinta Z3 P1-2-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000013, 1.06500003;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 105.76358,91.337396 V 72.816563 l 22.96616,11.07225"
+       d="M 105.76358,91.337396 V 72.816563 l 23.30315,11.577731"
        id="Cinta_Z3_P1-2-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -367,7 +369,7 @@
        inkscape:label="Cinta Z3 P1-2-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000025, 1.06500004;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 44.063069,127.54506 0.609576,17.00223 84.057095,-44.783477"
+       d="m 44.672645,127.54506 v 17.00223 L 128.72974,99.763813"
        id="Cinta_Z3_P2-2-2"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -378,7 +380,7 @@
        inkscape:label="Cinta Z3 P2-2-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000013, 1.06500003;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 128.72974,99.763813 v -15.875 L 44.063069,127.54506"
+       d="m 128.72974,99.763813 0,-15.088697 -84.057095,42.869944"
        id="Cinta_Z3_P2-2-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -389,7 +391,7 @@
        inkscape:label="Cinta Z3 P2-2-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000032, 1.06500005;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 50.109436,154.0034 0.568216,19.84375 120.675338,-69.84043"
+       d="m 50.677652,154.0034 v 19.84375 L 171.35299,104.00672"
        id="Cinta_Z3_P2-1-2"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -400,7 +402,7 @@
        inkscape:label="Cinta Z3 P2-1-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.3900002, 1.06500004;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 171.35299,104.00672 171.06307,85.21173 50.109436,154.0034"
+       d="M 171.35299,104.00672 V 86.110362 L 50.677652,154.0034"
        id="Cinta_Z3_P2-1-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -411,7 +413,7 @@
        inkscape:label="Cinta Z3 P2-1-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000025, 1.06500004;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 44.063069,127.54506 44.672645,144.54729 11.68962,124.89923"
+       d="m 44.672645,127.54506 v 17.00223 L 11.68962,124.89923"
        id="Cinta_Z3_P3-1-2"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -422,7 +424,7 @@
        inkscape:label="Cinta Z3 P3-1-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000013, 1.06500003;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 11.68962,124.89923 v -15.875 l 32.373449,18.52083"
+       d="m 11.68962,124.89923 v -15.875 l 32.983025,18.52083"
        id="Cinta_Z3_P3-1-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -433,7 +435,7 @@
        inkscape:label="Cinta Z3 P3-1-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.39000032, 1.06500005;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 50.109436,154.0034 50.677652,173.84715 -6.8817381,138.1284"
+       d="m 50.677652,154.0034 v 19.84375 L -6.8817381,138.1284"
        id="Cinta_Z3_P3-2-2"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"
@@ -444,7 +446,7 @@
        inkscape:label="Cinta Z3 P3-2-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.3900002, 1.06500004;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -6.8817381,138.1284 V 119.60756 L 49.354736,154.0034"
+       d="M -6.8817381,138.1284 V 119.60756 L 50.677652,154.0034"
        id="Cinta_Z3_P3-2-1"
        inkscape:connector-curvature="0"
        dataanim="Com2|Z3_MotoresMarcha"

@@ -121,7 +121,7 @@
        onclick="location.href = '?zona2';"
        onmouseover="this.style.fill='#b3896d'"
        onmouseout="this.style.fill='#ffb380'">
-      <Title>Zona 3</Title>
+      <Title>Zona 3 cintas</Title>
     </path>
     <path
        inkscape:connector-curvature="0"

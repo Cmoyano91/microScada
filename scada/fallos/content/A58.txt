@@ -1,0 +1,22 @@
+Piston 1 Superior: <br />
+
+Periferia -> periferia:15:O.6 <br />
+Rele -> 360k7 <br />
+Valvula -> Septima <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />
+<br />
+
+FC1 piston 1 Superior: <br />
+
+Periferia -> periferia:3:I.6 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

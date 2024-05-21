@@ -1,0 +1,32 @@
+Pistones 3 Laterales: <br />
+
+Periferia -> Local:3:O.Pt11.Data <br />
+Rele -> 64k4 <br />
+Valvula ->Onceava  <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />
+
+FC1 piston 3 Laterales: <br />
+
+Periferia -> Local:2:I.Pt12.Data <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />
+<br />
+
+FC2 piston 3 Laterales: <br />
+
+Periferia -> Local:2:I.Pt13.Data <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

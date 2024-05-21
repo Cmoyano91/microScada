@@ -1,0 +1,9 @@
+Det 5 Entrada: <br />
+
+Periferia -> periferia:3:I.4 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

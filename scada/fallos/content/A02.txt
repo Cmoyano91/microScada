@@ -1,1 +1,10 @@
-Texto A del 0 boton 2
+Aspiracion: <br />
+
+Periferia -> periferia:17:0.1 <br />
+Rele -> 410K7 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

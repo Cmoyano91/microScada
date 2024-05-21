@@ -1,0 +1,9 @@
+Det 1 Soporte: <br />
+
+Periferia -> periferia:3:I.2 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

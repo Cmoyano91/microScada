@@ -1,0 +1,9 @@
+Det 3 Inferior: <br />
+
+Periferia -> periferia:5:I.7 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

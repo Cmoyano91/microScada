@@ -1,1 +1,10 @@
-Texto A del 0 boton 3
+Calefaccion: <br />
+
+Periferia -> periferia:18:0.7 <br />
+Rele ->511K <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

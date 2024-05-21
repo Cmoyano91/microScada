@@ -1,0 +1,32 @@
+Pistones 5 Laterales: <br />
+
+Periferia -> Local:3:O.Pt09.Data <br />
+Rele -> 64k2 <br />
+Valvula -> Novena  <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />
+
+FC1 piston 5 Laterales: <br />
+
+Periferia -> Local:2:I.Pt08.Data <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />
+<br />
+
+FC2 piston 5 Laterales: <br />
+
+Periferia -> Local:2:I.Pt09.Data <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

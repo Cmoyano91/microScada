@@ -1,0 +1,9 @@
+Det 1 Entrada: <br />
+
+Periferia -> <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

@@ -1,0 +1,9 @@
+Det 4 superior  Derecha: <br />
+
+Periferia -> periferia:5:I.3 <br />
+<br />
+<br />
+Posibles Fallos: <br />
+<br />
+<br />
+Arreglos: <br />

@@ -1,9 +1,10 @@
 Det 4 Inferior: <br />
 
-Periferia -> periferia:1:I.2 <br />
+Periferia --> periferia:1:I.2 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que no detecte pieza. <br />
 <br />
 <br />
 Arreglos: <br />

@@ -1,22 +1,24 @@
 Piston 1 Superior: <br />
 
-Periferia -> periferia:15:O.6 <br />
-Rele -> 360k7 <br />
-Valvula -> Septima <br />
+Periferia --> periferia:15:O.6 <br />
+Rele --> 360k7 <br />
+Valvula --> Septima <br />
 <br />
 <br />
 Posibles Fallos: <br />
 <br />
 <br />
 Arreglos: <br />
+- Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
 FC1 piston 1 Superior: <br />
 
-Periferia -> periferia:3:I.6 <br />
+Periferia --> periferia:3:I.6 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el sensor se haya movido y no detecte bien la posicion del piston. <br />
 <br />
 <br />
 Arreglos: <br />

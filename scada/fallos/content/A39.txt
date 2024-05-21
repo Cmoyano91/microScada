@@ -1,22 +1,24 @@
 Piston 3 Superior: <br />
 
-Periferia -> periferia:15:O.4 <br />
-Rele -> 360k5 <br />
-Valvula -> Tercera  <br />
+Periferia --> periferia:15:O.4 <br />
+Rele --> 360k5 <br />
+Valvula --> Tercera  <br />
 <br />
 <br />
 Posibles Fallos: <br />
 <br />
 <br />
 Arreglos: <br />
+- Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
 FC1 piston 3 Superior: <br />
 
-Periferia -> periferia:3:I.1 <br />
+Periferia --> periferia:3:I.1 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el sensor se haya movido y no detecte bien la posicion del piston.<br />
 <br />
 <br />
 Arreglos: <br />

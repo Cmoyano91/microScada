@@ -1,11 +1,12 @@
 Piston 2 Horizontal: <br />
 
-Periferia -> periferia:15:O.2 <br />
-Rele -> 360k3 <br />
-Valvula -> Segunda  <br />
+Periferia --> periferia:15:O.2 <br />
+Rele --> 360k3 <br />
+Valvula --> Segunda  <br />
 <br />
 <br />
 Posibles Fallos: <br />
 <br />
 <br />
 Arreglos: <br />
+- Comprueba que la presion de aire esta correctamente. <br />

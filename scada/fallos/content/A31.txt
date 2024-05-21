@@ -1,9 +1,10 @@
 Almacen 1: <br />
 
-Variador -> V211U1 <br />
+Variador --> V211U1 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

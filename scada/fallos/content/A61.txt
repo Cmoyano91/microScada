@@ -1,9 +1,10 @@
 Det 1 Entrada: <br />
 
-Periferia -> <br />
+Periferia --> <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que no detecte pieza. <br />
 <br />
 <br />
 Arreglos: <br />

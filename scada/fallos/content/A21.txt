@@ -1,9 +1,10 @@
 Cinta 1: <br />
 
-Variador -> <br />
+Variador --> <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

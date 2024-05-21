@@ -1,22 +1,24 @@
 Piston 2 Inferior zona 5: <br />
 
-Periferia -> periferia:15:O.5 <br />
-Rele -> 360k6 <br />
-Valvula -> sexta <br />
+Periferia --> periferia:15:O.5 <br />
+Rele --> 360k6 <br />
+Valvula --> sexta <br />
 <br />
 <br />
 Posibles Fallos: <br />
 <br />
 <br />
 Arreglos: <br />
+- Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
 FC1 piston 2 Inferior: <br />
 
-Periferia -> periferia:4:I.0 <br />
+Periferia --> periferia:4:I.0 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el sensor se haya movido y no detecte bien la posicion del piston. <br />
 <br />
 <br />
 Arreglos: <br />

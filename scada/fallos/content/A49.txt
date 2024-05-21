@@ -1,21 +1,24 @@
 Pistones 3 Laterales: <br />
 
-Periferia -> Local:3:O.Pt10.Data <br />
-Rele -> 64k2 <br />
-Valvula -> Decima  <br />
+Periferia --> Local:3:O.Pt10.Data <br />
+Rele --> 64k2 <br />
+Valvula --> Decima  <br />
 <br />
 <br />
 Posibles Fallos: <br />
 <br />
 <br />
 Arreglos: <br />
+- Comprueba que la presion de aire esta correctamente. <br />
+<br />
 
 FC1 piston 3 Laterales: <br />
 
-Periferia -> Local:2:I.Pt10.Data <br />
+Periferia --> Local:2:I.Pt10.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que algun sensor se haya movido y no detecte bien la posicion de ese piston. <br />
 <br />
 <br />
 Arreglos: <br />
@@ -23,10 +26,11 @@ Arreglos: <br />
 
 FC2 piston 3 Laterales: <br />
 
-Periferia -> Local:2:I.Pt11.Data <br />
+Periferia --> Local:2:I.Pt11.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que algun sensor se haya movido y no detecte bien la posicion de ese piston. <br />
 <br />
 <br />
 Arreglos: <br />

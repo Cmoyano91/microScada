@@ -1,10 +1,11 @@
 Calefaccion: <br />
 
-Periferia -> periferia:18:0.7 <br />
-Rele ->511K <br />
+Periferia --> periferia:18:0.7 <br />
+Rele -->511K <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

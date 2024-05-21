@@ -1,10 +1,11 @@
 Aspiracion: <br />
 
-Periferia -> periferia:17:0.1 <br />
-Rele -> 410K7 <br />
+Periferia --> periferia:17:0.1 <br />
+Rele --> 410K7 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

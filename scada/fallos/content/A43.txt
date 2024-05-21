@@ -1,9 +1,10 @@
 Det 1 Soporte: <br />
 
-Periferia -> periferia:1:I.5 <br />
+Periferia --> periferia:1:I.5 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que no detecte cadena. <br />
 <br />
 <br />
 Arreglos: <br />

@@ -1,9 +1,10 @@
 Det 3 superior Izquierda: <br />
 
-Periferia -> periferia:2:I.0 <br />
+Periferia --> periferia:2:I.0 <br />
 <br />
 <br />
 Posibles Fallos: <br />
+- Que no detecte pieza. <br />
 <br />
 <br />
 Arreglos: <br />

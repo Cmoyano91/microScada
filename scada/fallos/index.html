@@ -1,0 +1,235 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				margin: 0;
+				padding: 0;
+			}
+
+			.imgSelector
+			{
+				position: absolute;
+				top: 0;
+				left: 0;
+				border: 1px solid red;
+				width: calc( 100vh - 10px );
+				height: calc( 100vh - 10px );
+				background-repeat: no-repeat;
+				background-size: 100%;
+			}
+
+			#nodeText
+			{
+				position: absolute;
+				top: 0;
+				left: calc( 100vh - 7px );
+				width: calc( 100% - 100vh + 5px );
+				height: calc( 100vh - 10px );
+				border: 1px solid orange;
+			}
+
+			.selCursor
+			{
+				border: 1px solid green;
+				border-width: 10px 10px 0 0;
+				position: absolute;
+				top: calc( 50% - 15px );
+				width: 30px;
+				height: 30px;
+				cursor: pointer;
+			}
+
+			.selCursor:hover
+			{
+
+			}
+
+			.selCursor.left
+			{
+				left: 10px;
+				transform: rotate( -135deg );
+			}
+
+			.selCursor.right
+			{
+				right: 10px;
+				transform: rotate( 45deg );
+			}
+
+			.selModel
+			{
+				border: 1px solid orange;
+				position: absolute;
+				bottom: 0px;
+				height: 50px;
+				width: 100%;
+				text-align: center;
+			}
+
+			.selModel > div
+			{
+				border: 1px solid yellow;
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+				cursor: pointer;
+			}
+
+			.selPointer
+			{
+				border: 1px solid black;
+				border-width: 1px 0px 1px 1px;
+				border-radius: 50%;
+				position: absolute;
+				margin: -10px -10px 0 0;
+				width: 40px;
+				height: 40px;
+
+				animation: rotating 3s linear infinite;
+			}
+
+			.selPointer:hover
+			{
+				border-color: red;
+				border-width: 3px 3px 3px 0;
+			}
+
+			@keyframes rotating {
+									0% {
+											transform: rotate(0);
+										}
+									100% {
+											transform: rotate(360deg);
+										}
+								}
+		</style>
+
+		<script src="familyNames.js"></script>
+		<script src="pointers.js"></script>
+	</head>
+	<body>
+		<div class="imgSelector">
+			<div class="selCursor left" onclick="changeView( false );"></div>
+			<div class="selCursor right" onclick="changeView( true );"></div>
+			<div class="selModel">
+				<div onclick="changeModel('A');">A</div>
+				<div onclick="changeModel('B');">B</div>
+			</div>
+		</div>
+		<div id="nodeText" style= "font-size: 20.5px">
+		</div>
+
+		<script>
+			// --- Actual View ---
+			var view = 0;
+
+			var viewMax = { 'A': 9 , 'B': 9 };
+
+			var viewModel = 'A';
+
+
+			// --- Reload View ---
+			getView();
+
+			function getView()
+			{
+				if ( view < 0 )
+				{
+					view = viewMax[ viewModel ];
+				}
+
+				if ( view > viewMax[ viewModel ] )
+				{
+					view = 0;
+				}
+
+				// --- Change Background ---
+				var selector  = document.getElementsByClassName( "imgSelector" );
+
+				selector[0].style.backgroundImage = "url('img/model." + viewModel + "." + view.toFixed() + ".png')";
+
+				// --- Change Family Pointers ---
+				var pointers = document.getElementsByClassName( "selPointer" );
+
+				while( pointers.length > 0 )
+				{
+					pointers[0].remove();
+				}
+
+				pointers = viewFamily[ viewModel ][ view ];
+
+				for( var x = 0 ; x < pointers.length ; x++ )
+				{
+					var node = document.createElement( "div" );
+					node.classList.add( "selPointer" );
+//					node.attributes.docuId = x;
+
+					node.style.top = pointers[ x ][ 2 ] + "%";
+					node.style.left = pointers[ x ][ 1 ] + "%";
+					node.id = "Num" + pointers[x][0];
+
+					node.addEventListener( "click" ,
+											function( event )
+											{
+												const regex = /[Num]/g;
+												var PunteroPulsado = event.target.id;
+												var viewNum = PunteroPulsado.replaceAll(regex, "");
+
+
+												//viewModel = Si la pagina es A o B. view= El numero de la pagina 0 al 9. viewNum= El numero del boton pulsado.
+												var textos = "content/" + viewModel +  view  + viewNum + ".txt";
+
+												fetch( textos ,
+														{
+
+															mode: 'no-cors'
+														}
+													).then((response) => {
+														//status – código de estado HTTP, por ejemplo: 200.
+														//ok – booleana, true si el código de estado HTTP es 200 a 299.
+														//Si .ok es falso no realiza bien el then y no pasa correctamente dejando la Y vacia.
+
+																	console.log(response.status);
+																	if (response.ok) {
+																	return response.text(); //lee y devuelve la respuesta en formato texto,
+																  }
+																  throw new Error('Error en petición');
+																})
+														.then((y) => {
+																		document.getElementById( 'nodeText' ).innerHTML = y
+																	}
+															)
+															.catch((error) => {
+																		  console.log(error)
+																		});
+											}
+										);
+					selector[0].append( node );
+				}
+			}
+
+			function changeView( next )
+			{
+				if ( next )
+				{
+					view++;
+				}
+				else
+				{
+					view--;
+				}
+
+				getView();
+			}
+
+			function changeModel( setModel )
+			{
+				viewModel = setModel;
+
+				getView();
+			}
+		</script>
+
+	</body>
+</html>

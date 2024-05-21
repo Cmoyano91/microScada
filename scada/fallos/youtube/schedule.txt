@@ -1,0 +1,59 @@
+Capitulo	Descripción
+
+1			Presentación del proyecto
+
+2			Estado actual del vehiculo General
+
+3			Proyecto de remodelación
+
+4			Asientos que vamos a hacer
+
+5			Asientos reparación Estetica
+
+6			Asientos reparación Calefaccion
+
+7			Asientos reparacion Motores
+
+8			Asientos CAN
+
+9			Consola central que vamos a hacer
+
+10			Consola reparacion Estetica
+
+11 			Columna RADIO Que vamos a hacer
+
+12			Columna RADIO creación de la nueva consola
+
+13			Columna RADIO Electronica
+
+14			Columna RADIO Camaras 360
+
+15			Columna RADIO Configuracion
+
+16			Columna RADIO CAN
+
+17			Columna RADIO TORQUE ???
+
+18			Salpicadero Que vamos a hacer
+
+19			Salpicadero Desmontaje
+
+20			Salpicadero Modificaciones Esteticas
+
+21			Salpicadero Nueva Electronica
+
+22			Salpicadero Instalacion
+
+23			Salpicadero Configuración
+
+24			Salpicadero CAN
+
+25			Mejoras Varias, Que vamos a hacer
+
+26			Detector de Fusibles 
+
+28			Detector de Fusibles PCB
+
+29			Detector de Fusibles Instalacion
+
+30			Detector de Fusibles Configuración

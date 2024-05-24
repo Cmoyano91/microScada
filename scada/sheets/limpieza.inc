@@ -9,7 +9,7 @@
 								" ‎",
 								"- Se necesita Rearme.", 
 								"- Comprueba si esta la seta pulsada.",
-								"- Comprueba que la presión de aire está corectamente.",
+								"- Comprueba que la presión de aire está correctamente.",
 								"- Comprueba que el modo Manual esta activado.",
 								" ‎",
 								"Si todo esta correcto y la pagina no le permite pulsar los botones On/Off, recargue la pagina."

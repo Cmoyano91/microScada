@@ -1,1 +1,10 @@
-Texto A del 7 boton 1
+Det 1 Entrada: <br />
+
+Conexion --> <br />
+<br />
+<br />
+Posibles Fallos: <br />
+- Que no detecte pieza. <br />
+<br />
+<br />
+Arreglos: <br />

@@ -1,7 +1,6 @@
-Calefaccion: <br />
+Cinta final: <br />
 
-Conexion --> periferia:18:0.7 <br />
-Rele -->511K <br />
+Variador --> <br />
 <br />
 <br />
 Posibles Fallos: <br />

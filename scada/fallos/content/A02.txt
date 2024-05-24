@@ -1,6 +1,6 @@
 Aspiracion: <br />
 
-Periferia --> periferia:17:0.1 <br />
+Conexion --> periferia:17:0.1 <br />
 Rele --> 410K7 <br />
 <br />
 <br />

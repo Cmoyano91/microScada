@@ -1,10 +1,10 @@
-Det 1 Entrada: <br />
+Almacen 3: <br />
 
-Periferia --> <br />
+Variador --> V215U1 <br />
 <br />
 <br />
 Posibles Fallos: <br />
-- Que no detecte pieza. <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

@@ -1,8 +1,8 @@
-Pistones 5 Laterales: <br />
+Pistones 3 Laterales: <br />
 
-Conexion --> Local:3:O.Pt09.Data <br />
-Rele --> 64k2 <br />
-Valvula --> Novena  <br />
+Conexion --> Local:3:O.Pt11.Data <br />
+Rele --> 64k4 <br />
+Valvula -->Onceava  <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -12,9 +12,9 @@ Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
-FC1 piston 5 Laterales: <br />
+FC1 piston 3 Laterales: <br />
 
-Conexion --> Local:2:I.Pt08.Data <br />
+Conexion --> Local:2:I.Pt12.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -24,9 +24,9 @@ Posibles Fallos: <br />
 Arreglos: <br />
 <br />
 
-FC2 piston 5 Laterales: <br />
+FC2 piston 3 Laterales: <br />
 
-Conexion --> Local:2:I.Pt09.Data <br />
+Conexion --> Local:2:I.Pt13.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />

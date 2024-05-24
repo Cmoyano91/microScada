@@ -1,8 +1,8 @@
-Piston 1 Superior: <br />
+Piston 1 Vertical: <br />
 
-Periferia --> periferia:15:O.0 <br />
-Rele --> 360k1 <br />
-Valvula --> Quinta <br />
+Conexion --> periferia:15:O.3 <br />
+Rele --> 360k4 <br />
+Valvula --> Primera  <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -10,15 +10,3 @@ Posibles Fallos: <br />
 <br />
 Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
-<br />
-
-FC1 piston 1 Superior: <br />
-
-Periferia --> periferia:3:I.5 <br />
-<br />
-<br />
-Posibles Fallos: <br />
-- Que el sensor se haya movido y no detecte bien la posicion del piston. <br />
-<br />
-<br />
-Arreglos: <br />

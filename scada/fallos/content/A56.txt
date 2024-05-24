@@ -1,6 +1,6 @@
 Det 3 Inferior: <br />
 
-Periferia --> periferia:5:I.7 <br />
+Conexion --> periferia:1:I.3 <br />
 <br />
 <br />
 Posibles Fallos: <br />

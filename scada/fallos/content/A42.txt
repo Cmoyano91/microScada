@@ -1,6 +1,6 @@
-Det 5 Entrada: <br />
+Det 1 inicial: <br />
 
-Periferia --> periferia:3:I.4 <br />
+Conexion --> periferia:1:I.0 <br />
 <br />
 <br />
 Posibles Fallos: <br />

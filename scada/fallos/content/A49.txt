@@ -1,8 +1,8 @@
-Pistones 3 Laterales: <br />
+Piston 3 Superior: <br />
 
-Periferia --> Local:3:O.Pt10.Data <br />
-Rele --> 64k2 <br />
-Valvula --> Decima  <br />
+Conexion --> periferia:15:O.4 <br />
+Rele --> 360k5 <br />
+Valvula --> Tercera  <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -12,25 +12,13 @@ Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
-FC1 piston 3 Laterales: <br />
+FC1 piston 3 Superior: <br />
 
-Periferia --> Local:2:I.Pt10.Data <br />
+Conexion --> periferia:3:I.1 <br />
 <br />
 <br />
 Posibles Fallos: <br />
-- Que algun sensor se haya movido y no detecte bien la posicion de ese piston. <br />
-<br />
-<br />
-Arreglos: <br />
-<br />
-
-FC2 piston 3 Laterales: <br />
-
-Periferia --> Local:2:I.Pt11.Data <br />
-<br />
-<br />
-Posibles Fallos: <br />
-- Que algun sensor se haya movido y no detecte bien la posicion de ese piston. <br />
+- Que el sensor se haya movido y no detecte bien la posicion del piston.<br />
 <br />
 <br />
 Arreglos: <br />

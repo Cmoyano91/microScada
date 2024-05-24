@@ -1,10 +1,10 @@
-Cinta 2: <br />
+Cinta: <br />
 
-Variador -->  <br />
+Variador --> V311U1 <br />
 <br />
 <br />
 Posibles Fallos: <br />
- - Que el rearme del variador falle. <br />
+- Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

@@ -1,6 +1,6 @@
 Det 1 Soporte: <br />
 
-Periferia --> periferia:3:I.2 <br />
+Conexion --> periferia:1:I.5 <br />
 <br />
 <br />
 Posibles Fallos: <br />

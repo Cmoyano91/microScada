@@ -1,6 +1,6 @@
-Bomba Lacadora: <br />
+Cadena Inyector: <br />
 
-Variador --> V313U1 <br />
+Variador --> <br />
 <br />
 <br />
 Posibles Fallos: <br />

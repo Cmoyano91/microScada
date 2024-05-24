@@ -1,8 +1,8 @@
-Piston 4 Inferior Zona 4: <br />
+Piston 2 Horizontal: <br />
 
-Periferia --> periferia:15:O.1 <br />
-Rele --> 360k6 <br />
-Valvula --> Cuarta  <br />
+Conexion --> periferia:15:O.2 <br />
+Rele --> 360k3 <br />
+Valvula --> Segunda  <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -10,15 +10,3 @@ Posibles Fallos: <br />
 <br />
 Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
-<br />
-
-FC1 piston 4 Inferior: <br />
-
-Periferia --> periferia:3:I.3 <br />
-<br />
-<br />
-Posibles Fallos: <br />
-- Que el sensor se haya movido y no detecte bien la posicion del piston. <br />
-<br />
-<br />
-Arreglos: <br />

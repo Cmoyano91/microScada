@@ -1,10 +1,10 @@
-Cinta: <br />
+Det 1 Entrada: <br />
 
-Variador --> V311U1 <br />
+Conexion -->  <br />
 <br />
 <br />
 Posibles Fallos: <br />
-- Que el rearme del variador falle. <br />
+- Que no detecte pieza. <br />
 <br />
 <br />
 Arreglos: <br />

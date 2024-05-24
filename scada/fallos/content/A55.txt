@@ -1,6 +1,6 @@
 Det 4 superior  Derecha: <br />
 
-Periferia --> periferia:5:I.5 <br />
+Conexion --> periferia:5:I.3 <br />
 <br />
 <br />
 Posibles Fallos: <br />

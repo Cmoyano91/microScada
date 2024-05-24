@@ -1,10 +1,10 @@
-Det 1 inicial: <br />
+Cinta 2: <br />
 
-Periferia --> periferia:1:I.0 <br />
+Variador -->  <br />
 <br />
 <br />
 Posibles Fallos: <br />
-- Que no detecte pieza. <br />
+ - Que el rearme del variador falle. <br />
 <br />
 <br />
 Arreglos: <br />

@@ -1,8 +1,8 @@
 Piston 2 Inferior: <br />
 
-Periferia --> Local:3:O.Pt08.Data <br />
-Rele --> 64k1 <br />
-Valvula --> Octava <br />
+Conexion --> periferia:15:O.5 <br />
+Rele --> 360k6 <br />
+Valvula --> sexta <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -12,9 +12,9 @@ Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
-FC1 piston 2 Inferior:  <br />
+FC1 piston 2 Inferior: <br />
 
-Periferia --> periferia:5:I.6 <br />
+Conexion --> periferia:4:I.0 <br />
 <br />
 <br />
 Posibles Fallos: <br />

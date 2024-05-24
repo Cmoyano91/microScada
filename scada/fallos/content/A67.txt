@@ -1,8 +1,8 @@
-Piston 4 Inferior Zona 4: <br />
+Piston 2 Inferior zona 5: <br />
 
-Conexion --> periferia:15:O.1 <br />
+Conexion --> periferia:15:O.5 <br />
 Rele --> 360k6 <br />
-Valvula --> Cuarta  <br />
+Valvula --> sexta <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -12,9 +12,9 @@ Arreglos: <br />
 - Comprueba que la presion de aire esta correctamente. <br />
 <br />
 
-FC1 piston 4 Inferior: <br />
+FC1 piston 2 Inferior: <br />
 
-Conexion --> periferia:3:I.3 <br />
+Conexion --> periferia:4:I.0 <br />
 <br />
 <br />
 Posibles Fallos: <br />

@@ -1,8 +1,8 @@
 Pistones 3 Laterales: <br />
 
-Periferia --> Local:3:O.Pt11.Data <br />
-Rele --> 64k4 <br />
-Valvula -->Onceava  <br />
+Conexion --> Local:3:O.Pt10.Data <br />
+Rele --> 64k2 <br />
+Valvula --> Decima  <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -14,7 +14,7 @@ Arreglos: <br />
 
 FC1 piston 3 Laterales: <br />
 
-Periferia --> Local:2:I.Pt12.Data <br />
+Conexion --> Local:2:I.Pt10.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />
@@ -26,7 +26,7 @@ Arreglos: <br />
 
 FC2 piston 3 Laterales: <br />
 
-Periferia --> Local:2:I.Pt13.Data <br />
+Conexion --> Local:2:I.Pt11.Data <br />
 <br />
 <br />
 Posibles Fallos: <br />

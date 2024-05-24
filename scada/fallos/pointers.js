@@ -1,114 +1,54 @@
-var viewFamily = {
-					A: {
-							0 : [
-									[	1	,	47	,	34	],
-									[	2	,	47	,	45	],
-									[	3	,	47	,	56	]
-								],
-							1 :	[
-									[	1	,	27	,	66.5	],
-									[	2	,	33.5	,	32	]
-								],
-							2 :	[
-									[	1	,	68	,	21	],
-									[	2	,	57	,	36.5	],
-									[	3	,	20	,	47	]
-								],
-							3 : [
-									[	1	,	43	,	30	],
-									[	2	,	31.75	,	60.5	],
-									[	3	,	31.75	,	68.5	],
-									[	4	,	55	,	4	],
-									[	5	,	65.5	,	9.5	],
-									[	6	,	55	,	83	],
-									[	7	,	42.5	,	58	],
-									[	8	,	42.5	,	63	],
-									[	9	,	61.35 ,	12.5	],
-									[	10	,	44.25	,	21.5	],
-									[	11	,	64.75	,	83	]
-								],
-							4 :	[
-									[	1	,	42.5	,	30	],
-									[	2	,	53.5	,	73.85	],
-									[	3	,	32.5	,	74.5	],
-									[	4	,	54.5	,	4	],
-									[	5	,	69.25	,	11.5	],
-									[	6	,	54.5	,	83.25	],
-									[	7	,	42.25	,	72	],
-									[	8	,	61 ,	13	],
-									[	9	,	43.15	,	22.5	],
-									[	10	,	64.75	,	83	]
-								],
-							5 :	[
-									[	1	,	42.5	,	30	],
-									[	2	,	53.5	,	73.85	],
-									[	3	,	32.5	,	74.5	],
-									[	4	,	54.5	,	4	],
-									[	5	,	69.25	,	11.5	],
-									[	6	,	54.5	,	83.25	],
-									[	7	,	42.25	,	72	],
-									[	8	,	61 ,	13	],
-									[	9	,	43.15	,	22.5	],
-									[	10	,	64.75	,	83	]
-								],
-							6 :	[
-									[	1	,	25.15	,	22.35	],
-									[	2	,	33	,	35	]
-								],
-							7 : [
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							8 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							9 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								]
+// --- Generación del Array de Forma Automatica ---
+
+var cadenaJSON = [];
+var secciones = [ 'A' , 'B' ];
+var maxPages = 25;
+
+var NumPag = 0;
+
+// --- Bucle de Secciones ---
+for( var s = 0 ; s < secciones.length ; s++ )
+{
+	cadenaJSON[ secciones[ s ] ] = [];
+	
+	for( var p = 0 ; p < maxPages ; p++ )
+	{
+		var url = "content/" + secciones[ s ] + p + ".json";
+		
+		// --- Peticion ---
+		var Promise = fetch( url ,
+			{
+				mode: 'no-cors'
+				}
+					).then((response) => {
+						//status – código de estado HTTP, por ejemplo: 200.
+						//ok – booleana, true si el código de estado HTTP es 200 a 299.
+						//Si .ok es falso no realiza bien el then y no pasa correctamente dejando la Y vacia.
+						console.log(response.status);
+						if (response.ok) {
+							return response.json().then( data => ({
+									data: data,
+									url: response.url
+								
+								})); 
 						}
-					,
-					B: {
-							0 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							1 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							2 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							3 : [
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							4 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							5 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							6 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							7 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							8 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								],
-							9 :	[
-									[	1	,	25	,	25	],
-									[	5	,	64	,	36	]
-								]
-						}
-				};
+						throw new Error('Error en petición');
+						})
+							.then((Res) => {
+								
+								var ValorS = Res.url.substring(43,44);
+								var ValorP = Res.url.substring(44,45);
+								
+								cadenaJSON[ ValorS ][ ValorP ] = Res.data;
+
+							}
+						)
+							.catch((error) => {
+								console.log(error)
+							});
+					
+		// --- Añadimos al Array ---
+		//
+	}
+}
+

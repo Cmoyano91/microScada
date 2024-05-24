@@ -105,8 +105,8 @@
 								}
 		</style>
 
-		<script src="familyNames.js"></script>
 		<script src="pointers.js"></script>
+		<script src="familyNames.js"></script>
 	</head>
 	<body>
 		<div class="imgSelector">
@@ -127,6 +127,7 @@
 			var viewMax = { 'A': 9 , 'B': 9 };
 
 			var viewModel = 'A';
+			console.log(cadenaJSON)
 
 
 			// --- Reload View ---
@@ -157,7 +158,7 @@
 					pointers[0].remove();
 				}
 
-				pointers = viewFamily[ viewModel ][ view ];
+				pointers = cadenaJSON[ viewModel ][ view ];
 
 				for( var x = 0 ; x < pointers.length ; x++ )
 				{

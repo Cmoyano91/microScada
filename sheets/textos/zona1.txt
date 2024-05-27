@@ -1,6 +1,0 @@
-En esta pantalla podemos visualizar cuando se activa cada elemento y la velocidad del variador del cargador de discos.
-
-— Los sensores están visualizados en azul:
-	Azul oscuro = Desactivado.
-	Azul claro = Activado.
-

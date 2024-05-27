@@ -1,3 +1,0 @@
-﻿En esta pantalla podemos visualizar cuando se activa cada elemento,la velocidad del variador de la cinta de lacado y la cinta de almacenamiento, la velocidad de cada variador que forman parte de la cinta 3.
-
-— Podemos visualizar también la temperatura y viscosidad, elementos que podemos modificar en la página inicial.

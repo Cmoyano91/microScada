@@ -1,0 +1,198 @@
+div
+{
+	//border: 1px solid;
+}
+
+.main
+{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+.datos
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 300px;
+	font-size: 18px;
+	background: white;
+}
+
+.fondo 
+{
+	position:absolute;
+	left: 40%;
+	top: 50px;
+}
+
+.acciones
+{
+	position:absolute;
+	top: 485px;
+	margin: 20px 20px 0px 20px;
+	width: auto;
+	height: 230px;
+}
+.accionesVel
+{
+	position:absolute;
+	top: 455px;
+	margin: 20px 20px 0px 20px;
+	width: auto;
+	height: 230px;
+}
+.accioneslimpieza
+{
+	position:absolute;
+	top: 420px;
+	margin: 20px 20px 0px 20px;
+	width: auto;
+	height: 300px;
+}
+
+.form
+{
+	float: left;
+	border: 1px solid black;
+	padding: 0 10px;
+	margin: 0 10px 0 0;
+}
+
+.estados
+{
+	position:absolute;
+	border: 1px solid;
+	padding: 5px;
+    width: 357px;
+    margin: 20px 20px 0px 20px;
+}
+
+.derecha
+{
+	right: 0px;
+}
+
+.centrado
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.titulo
+{
+	margin-top: -15px;
+	margin-left: 10px;
+	float: left;
+	font-size: 18px;
+	background: white;
+}
+
+.subtitulosz
+{
+	font-weight: bold;
+	background: lightGrey;
+}
+
+.pulsador
+{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+/* --- Modales --- */
+
+.modal-wrapper {
+  background-color: rgb(0,0,0, 0.45);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog {
+	background-color:white;
+	width: 60%;
+	height: 62vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.modal-dialog-grid {
+	display: grid;
+	grid-template-rows: 2em calc(62vh - 2em);
+	grid-template-areas:
+	"area-header"
+	"area-body"
+}
+
+.area-header {
+	grid-area: area-header;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.area-header button {
+	background: #bd0003;
+	color: white;
+	width: 2em;
+	height: 2em;
+	border-radius: 10px;
+}
+
+.area-header h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 0.15em;
+	top:0;
+	text-align: center;
+}
+
+.area-body {
+	grid-area: area-body;
+	margin: 0 40px;
+	padding: 0;
+	overflow: auto;
+}
+
+.on
+{
+	background: lightgreen;
+}
+
+.on2
+{
+	background: #ff5959;
+}
+.off
+{
+	background: lightgray;
+}
+
+.form >div
+{
+	padding: 0px 0px 6px 0px;
+}
+
+.alert
+{
+	width: 50px;
+	height: 50px;
+	display: none;
+	margin: auto;
+}

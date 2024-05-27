@@ -98,10 +98,10 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 2 Cinta</td>
+				<td>Variadores 2 cintas</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_PZ2Mot1' , 1 )" datafield="Com2|scada_PZ2Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_PZ2Mot1' , 0 )" datafield="Com2|scada_PZ2Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Z2_mot1_activo"> 0 </td>
+				<td class="value" datafield = "Com2|Z2_MotoresMarcha"> 0 </td>
 			</tr>
 			<tr>
 				<td>Variador 3 Lacadora</td>
@@ -121,7 +121,7 @@
 				<td>Variadores 4 Cintas</td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_PZ3Mot1' , 1 )" datafield="Com2|scada_PZ3Mot1" dataanimvalues="off;on" dataanimtype="bgcolor"> On </button></td>
 				<td class="action"><button value="0" onClick="SCADA.sendVariables( 'Com2|scada_PZ3Mot1' , 0 )" datafield="Com2|scada_PZ3Mot1" dataanimvalues="on2;off" dataanimtype="bgcolor"> Off </button></td>
-				<td class="value" datafield = "Com2|Z3_mot1_activo"> 0 </td>
+				<td class="value" datafield = "Com2|Z3_MotoresMarcha"> 0 </td>
 			</tr>
 			<tr>
 				<th colspan="3">

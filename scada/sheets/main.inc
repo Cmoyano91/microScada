@@ -72,13 +72,19 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 2 Cinta</td>
+				<td>Variador 2 Cinta 1</td>
 				<td class="value">
-					<span datafield="Com2|Z2_mot1_ready">V2.ok</span>
+					<span datafield="Com2|Z2_mot1_ready">V2_1.ok</span>
 				</td>
 			</tr>
 			<tr>
-				<td>Variador 3 Lacadora</td>
+				<td>Variador 3 Cinta 2</td>
+				<td class="value">
+					<span datafield="Com2|Z2_mot2_ready">V2_2.ok</span>
+				</td>
+			</tr>
+			<tr>
+				<td>Variador 4 Lacadora</td>
 				<td class="value">
 					<span datafield="Com2|Z2_bomba_ready">Bomba.ok</span>
 				</td>
@@ -92,19 +98,19 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 4 Cinta 1</td>
+				<td>Variador 5 Cinta 1</td>
 				<td class="value">
 					<span datafield="Com2|Z3_mot1_ready">V3_1.ok</span>
 				</td>
 			</tr>
 			<tr>
-				<td>Variador 5 Cinta 2</td>
+				<td>Variador 6 Cinta 2</td>
 				<td class="value">
 					<span datafield="Com2|Z3_mot2_ready">V3_2.ok</span>
 				</td>
 			</tr>
 			<tr>
-				<td>Variador 6 Cinta 3</td>
+				<td>Variador 7 Cinta 3</td>
 				<td class="value">
 					<span datafield="Com2|Z3_mot3_ready">V3_3.ok</span>
 				</td>
@@ -118,7 +124,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 7 Arrastre 1</td>
+				<td>Variador 8 Arrastre 1</td>
 				<td class="value">
 					<span datafield="Com2|Z4_mot1_ready">V4.ok</span>
 				</td>
@@ -132,7 +138,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 8 Arrastre 2</td>
+				<td>Variador 9 Arrastre 2</td>
 				<td class="value">
 					<span datafield="Com2|Z5_mot1_ready"> V5.ok</span>
 				</td>
@@ -146,7 +152,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 9 Arrastre 3</td>
+				<td>Variador 10 Arrastre 3</td>
 				<td class="value">
 					<span datafield="Com2|Z6_mot1_ready"> V6.ok</span>
 				</td>
@@ -160,7 +166,7 @@
 				</th>
 			</tr>
 			<tr>
-				<td>Variador 10</td>
+				<td>Variador 11</td>
 				<td class="value">
 					<span datafield="Com2|Z7_mot1_ready"> V7.ok</span>
 				</td>

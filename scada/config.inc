@@ -35,12 +35,14 @@
 								"Zona 5: Bloqueo Pistón Inferior",
 								"Zona 6: Bloqueo Pistón Superior o Laterales",
 								"Zona 6: Bloqueo Pistón Inferior",
-								"Zona 2: Error Variador Cinta (V311U1)",
+								"Zona 2: Error Variador Cinta 1 (V311U1)",
+								"Zona 2: Error Variador Cinta 2 (V312U1)",
 								"Zona 2: Error Variador Bomba (V313U1)",
+								"Zona 3: Error Variador Cinta 1 (V315U1)",
 								"Zona 4: Error Variador Arrastre (V211U1)",
 								"Zona 5: Error Variador Arrastre (V212U1)",
 								"Zona 6: Error Variador Arrastre (V215U1)",
-								"Zona 3: Error Variadores Cinta ()",
+								"",
 								"",
 								""
 						) 

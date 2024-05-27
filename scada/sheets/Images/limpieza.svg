@@ -125,7 +125,7 @@
        dataanimvalues="#a7ac93;#55d400"
        dataanimtype="fill"
        datafield="Com2|Z3_MotoresMarcha">
-      <Title>Cinta Z3</Title>
+      <Title>Cintas Z3</Title>
     </circle>
     <path
        inkscape:connector-curvature="0"
@@ -304,8 +304,8 @@
        r="3.5357146"
        dataanimvalues="#a7ac93;#55d400"
        dataanimtype="fill"
-       datafield="Com2|Z2_mot1_activo">
-      <Title>Cinta Z2</Title>
+       datafield="Com2|Z2_MotoresMarcha">
+      <Title>Cintas Z2</Title>
     </circle>
     <circle
        style="fill:#2b91fa;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"

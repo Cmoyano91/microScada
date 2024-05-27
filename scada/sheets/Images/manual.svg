@@ -78,11 +78,11 @@
        id="path837-8"
        cx="42.993958"
        cy="135.59694"
-       datafield="Com2|Z2_mot1_activo"
+       datafield="Com2|Z2_MotoresMarcha"
        dataanimtype="fill"
        dataanimvalues="#a7ac93;#55d400"
        r="3.4962797">
-    <Title>Z2 Motor Cinta</Title>
+    <Title>Z2 Motores Cinta</Title>
   </circle>
     <g
        aria-label="Variador 2"
@@ -297,7 +297,7 @@
        dataanimtype="fill"
        dataanimvalues="#a7ac93;#55d400"
        r="3.4962797" >
-    <Title>Z3 Motor Cinta</Title>
+    <Title>Z3 Motores Cinta</Title>
   </circle>
     <circle
        style="fill:#a7ac93;fill-opacity:1;stroke:#001000;stroke-width:0.2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"

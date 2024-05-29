@@ -41,10 +41,7 @@
 								"Zona 3: Error Variador Cinta 1 (V315U1)",
 								"Zona 4: Error Variador Arrastre (V211U1)",
 								"Zona 5: Error Variador Arrastre (V212U1)",
-								"Zona 6: Error Variador Arrastre (V215U1)",
-								"",
-								"",
-								""
+								"Zona 6: Error Variador Arrastre (V215U1)"
 						) 
 			);
 			

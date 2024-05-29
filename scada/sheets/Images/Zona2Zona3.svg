@@ -176,8 +176,8 @@
        d="m 168.20369,119.5 v 20 l -86.602446,-50"
        id="path1027"
        inkscape:connector-curvature="0"
-       dataanim="Com2|Z2_mot1_activo"
-       datafield="Com2|Z2_mot1_activo"
+       dataanim="Com2|Z2_MotoresMarcha"
+       datafield="Com2|Z2_MotoresMarcha"
        dataanimvalues="10;100"
        dataanimtype="offset" />
     <path
@@ -192,9 +192,9 @@
        d="m 189.75756,106.32498 v 20 L 103.15502,76.324995"
        id="path1027-9"
        inkscape:connector-curvature="0"
-       dataanim="Com2|Z2_mot1_activo"
+       dataanim="Com2|Z2_MotoresMarcha"
        dataanimtype="offset"
-       datafield="Com2|Z2_mot1_activo"
+       datafield="Com2|Z2_MotoresMarcha"
        dataanimvalues="10;100" />
     <g
        id="g90"
@@ -243,9 +243,9 @@
        d="m 81.601243,89.5 v -20 l 86.602447,50"
        id="path1023"
        inkscape:connector-curvature="0"
-       dataanim="Com2|Z2_mot1_activo"
+       dataanim="Com2|Z2_MotoresMarcha"
        dataanimtype="offset"
-       datafield="Com2|Z2_mot1_activo"
+       datafield="Com2|Z2_MotoresMarcha"
        dataanimvalues="10;100" />
     <path
        transform="translate(-66.803992,-50.493287)"
@@ -253,9 +253,9 @@
        d="M 103.15502,76.324988 V 56.32499 l 86.60254,49.99999"
        id="path1023-2"
        inkscape:connector-curvature="0"
-       dataanim="Com2|Z2_mot1_activo"
+       dataanim="Com2|Z2_MotoresMarcha"
        dataanimtype="offset"
-       datafield="Com2|Z2_mot1_activo"
+       datafield="Com2|Z2_MotoresMarcha"
        dataanimvalues="10;100" />
     <g
        aria-label="Bomba Cortina"

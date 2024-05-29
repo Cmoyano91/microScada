@@ -187,7 +187,7 @@
 				<tr>
 					<td>
 						<form method="POST" id="form1">
-							<label>Velocidad Cinta: </label>
+							<label>Velocidad Cintas: </label>
 							<label datafield="Com2|ValoresEscalados_Z2CintaDeseado" datafixed="0"> </label>
 							<label class="unit"> Cm/s</label>
 							<br />

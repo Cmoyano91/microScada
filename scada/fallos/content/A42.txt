@@ -1,10 +1,11 @@
 Det 1 inicial: <br />
 
 Conexion --> periferia:1:I.0 <br />
-<br />
-<br />
+<br /> 
+
 Posibles Fallos: <br />
 - Que no detecte pieza. <br />
 <br />
-<br />
+ 
 Arreglos: <br />
+- Reajustar el sensor para colocarlo correctamente y que detecte bien la pieza. <br />

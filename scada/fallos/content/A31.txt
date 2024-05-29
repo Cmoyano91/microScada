@@ -2,9 +2,13 @@ Cinta 1: <br />
 
 Variador --> V315U1 <br />
 <br />
-<br />
+ 
 Posibles Fallos: <br />
 - Que el rearme del variador falle. <br />
+- Que la configuracion interna del variador este incorrecta.<br/>
+- Que falle el termico. <br/>
 <br />
-<br />
+ 
 Arreglos: <br />
+- Revisar el error del variador, si es F002 significa que el clableado externo tiene algun error. <br/>
+- Volver a concectar el termico. <br />

@@ -3,9 +3,9 @@ Calefaccion: <br />
 Conexion --> periferia:18:0.7 <br />
 Rele -->511K <br />
 <br />
-<br />
 Posibles Fallos: <br />
 - Que el rearme del variador falle. <br />
-<br />
+- Que falle el termico. <br/>
 <br />
 Arreglos: <br />
+- Volver a concectar el termico. <br/ >

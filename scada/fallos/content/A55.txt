@@ -2,9 +2,10 @@ Det 4 superior  Derecha: <br />
 
 Conexion --> periferia:5:I.3 <br />
 <br />
-<br />
+ 
 Posibles Fallos: <br />
 - Que no detecte pieza. <br />
 <br />
-<br />
+
 Arreglos: <br />
+- Reajustar el sensor para colocarlo correctamente y que detecte bien la pieza. <br />

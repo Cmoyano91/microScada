@@ -3,10 +3,9 @@ ventilacion: <br />
 Conexion --> periferia:17:0.0 <br />
 Rele --> 410K3 <br />
 <br />
-<br />
 Posibles Fallos: <br />
 - Que el rearme del variador falle. <br />
-<br />
+- Que falle el termico. <br/>
 <br />
 Arreglos: <br />
-
+- Volver a concectar el termico. <br />

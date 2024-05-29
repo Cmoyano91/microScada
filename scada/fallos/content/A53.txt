@@ -2,9 +2,10 @@ Det 1 Soporte: <br />
 
 Conexion --> periferia:1:I.5 <br />
 <br />
-<br />
+ 
 Posibles Fallos: <br />
 - Que no detecte cadena. <br />
 <br />
-<br />
+ 
 Arreglos: <br />
+- Reajustar el sensor para colocarlo correctamente y que detecte bien la cadena. <br />
